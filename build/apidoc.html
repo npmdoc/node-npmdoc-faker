@@ -1,0 +1,5375 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api-documentation for
+    <a
+
+        href="https://github.com/Marak/Faker.js#readme"
+
+    >faker (v4.1.0)</a>
+</h1>
+<h4>Generate massive amounts of fake contextual data</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker">module faker</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.fake">
+            function <span class="apidocSignatureSpan">faker.</span>fake
+            <span class="apidocSignatureSpan">(str)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.index">
+            function <span class="apidocSignatureSpan">faker.</span>index
+            <span class="apidocSignatureSpan">(opts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>address</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>commerce</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>company</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>database</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>date</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>definitions</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>finance</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>hacker</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>helpers</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>iban</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>image</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>index.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>internet</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>locales</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>lorem</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>name</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>phone</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>random</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.</span>system</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">faker.</span>locale</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">string <span class="apidocSignatureSpan">faker.</span>localeFallback</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.address">module faker.address</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.address.city">
+            function <span class="apidocSignatureSpan">faker.address.</span>city
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.address.cityPrefix">
+            function <span class="apidocSignatureSpan">faker.address.</span>cityPrefix
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.address.citySuffix">
+            function <span class="apidocSignatureSpan">faker.address.</span>citySuffix
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.address.country">
+            function <span class="apidocSignatureSpan">faker.address.</span>country
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.address.countryCode">
+            function <span class="apidocSignatureSpan">faker.address.</span>countryCode
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.address.county">
+            function <span class="apidocSignatureSpan">faker.address.</span>county
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.address.latitude">
+            function <span class="apidocSignatureSpan">faker.address.</span>latitude
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.address.longitude">
+            function <span class="apidocSignatureSpan">faker.address.</span>longitude
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.address.secondaryAddress">
+            function <span class="apidocSignatureSpan">faker.address.</span>secondaryAddress
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.address.state">
+            function <span class="apidocSignatureSpan">faker.address.</span>state
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.address.stateAbbr">
+            function <span class="apidocSignatureSpan">faker.address.</span>stateAbbr
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.address.streetAddress">
+            function <span class="apidocSignatureSpan">faker.address.</span>streetAddress
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.address.streetName">
+            function <span class="apidocSignatureSpan">faker.address.</span>streetName
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.address.streetPrefix">
+            function <span class="apidocSignatureSpan">faker.address.</span>streetPrefix
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.address.streetSuffix">
+            function <span class="apidocSignatureSpan">faker.address.</span>streetSuffix
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.address.zipCode">
+            function <span class="apidocSignatureSpan">faker.address.</span>zipCode
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.commerce">module faker.commerce</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.commerce.color">
+            function <span class="apidocSignatureSpan">faker.commerce.</span>color
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.commerce.department">
+            function <span class="apidocSignatureSpan">faker.commerce.</span>department
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.commerce.price">
+            function <span class="apidocSignatureSpan">faker.commerce.</span>price
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.commerce.product">
+            function <span class="apidocSignatureSpan">faker.commerce.</span>product
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.commerce.productAdjective">
+            function <span class="apidocSignatureSpan">faker.commerce.</span>productAdjective
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.commerce.productMaterial">
+            function <span class="apidocSignatureSpan">faker.commerce.</span>productMaterial
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.commerce.productName">
+            function <span class="apidocSignatureSpan">faker.commerce.</span>productName
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.company">module faker.company</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.company.bs">
+            function <span class="apidocSignatureSpan">faker.company.</span>bs
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.company.bsAdjective">
+            function <span class="apidocSignatureSpan">faker.company.</span>bsAdjective
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.company.bsBuzz">
+            function <span class="apidocSignatureSpan">faker.company.</span>bsBuzz
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.company.bsNoun">
+            function <span class="apidocSignatureSpan">faker.company.</span>bsNoun
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.company.catchPhrase">
+            function <span class="apidocSignatureSpan">faker.company.</span>catchPhrase
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.company.catchPhraseAdjective">
+            function <span class="apidocSignatureSpan">faker.company.</span>catchPhraseAdjective
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.company.catchPhraseDescriptor">
+            function <span class="apidocSignatureSpan">faker.company.</span>catchPhraseDescriptor
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.company.catchPhraseNoun">
+            function <span class="apidocSignatureSpan">faker.company.</span>catchPhraseNoun
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.company.companyName">
+            function <span class="apidocSignatureSpan">faker.company.</span>companyName
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.company.companySuffix">
+            function <span class="apidocSignatureSpan">faker.company.</span>companySuffix
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.company.suffixes">
+            function <span class="apidocSignatureSpan">faker.company.</span>suffixes
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.database">module faker.database</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.database.collation">
+            function <span class="apidocSignatureSpan">faker.database.</span>collation
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.database.column">
+            function <span class="apidocSignatureSpan">faker.database.</span>column
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.database.engine">
+            function <span class="apidocSignatureSpan">faker.database.</span>engine
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.database.type">
+            function <span class="apidocSignatureSpan">faker.database.</span>type
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.date">module faker.date</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.date.between">
+            function <span class="apidocSignatureSpan">faker.date.</span>between
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.date.future">
+            function <span class="apidocSignatureSpan">faker.date.</span>future
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.date.month">
+            function <span class="apidocSignatureSpan">faker.date.</span>month
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.date.past">
+            function <span class="apidocSignatureSpan">faker.date.</span>past
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.date.recent">
+            function <span class="apidocSignatureSpan">faker.date.</span>recent
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.date.weekday">
+            function <span class="apidocSignatureSpan">faker.date.</span>weekday
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.finance">module faker.finance</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.finance.account">
+            function <span class="apidocSignatureSpan">faker.finance.</span>account
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.finance.accountName">
+            function <span class="apidocSignatureSpan">faker.finance.</span>accountName
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.finance.amount">
+            function <span class="apidocSignatureSpan">faker.finance.</span>amount
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.finance.bic">
+            function <span class="apidocSignatureSpan">faker.finance.</span>bic
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.finance.bitcoinAddress">
+            function <span class="apidocSignatureSpan">faker.finance.</span>bitcoinAddress
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.finance.currencyCode">
+            function <span class="apidocSignatureSpan">faker.finance.</span>currencyCode
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.finance.currencyName">
+            function <span class="apidocSignatureSpan">faker.finance.</span>currencyName
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.finance.currencySymbol">
+            function <span class="apidocSignatureSpan">faker.finance.</span>currencySymbol
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.finance.iban">
+            function <span class="apidocSignatureSpan">faker.finance.</span>iban
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.finance.mask">
+            function <span class="apidocSignatureSpan">faker.finance.</span>mask
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.finance.transactionType">
+            function <span class="apidocSignatureSpan">faker.finance.</span>transactionType
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.hacker">module faker.hacker</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.hacker.abbreviation">
+            function <span class="apidocSignatureSpan">faker.hacker.</span>abbreviation
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.hacker.adjective">
+            function <span class="apidocSignatureSpan">faker.hacker.</span>adjective
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.hacker.ingverb">
+            function <span class="apidocSignatureSpan">faker.hacker.</span>ingverb
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.hacker.noun">
+            function <span class="apidocSignatureSpan">faker.hacker.</span>noun
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.hacker.phrase">
+            function <span class="apidocSignatureSpan">faker.hacker.</span>phrase
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.hacker.verb">
+            function <span class="apidocSignatureSpan">faker.hacker.</span>verb
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.helpers">module faker.helpers</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.helpers.contextualCard">
+            function <span class="apidocSignatureSpan">faker.helpers.</span>contextualCard
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.helpers.createCard">
+            function <span class="apidocSignatureSpan">faker.helpers.</span>createCard
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.helpers.createTransaction">
+            function <span class="apidocSignatureSpan">faker.helpers.</span>createTransaction
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.helpers.mustache">
+            function <span class="apidocSignatureSpan">faker.helpers.</span>mustache
+            <span class="apidocSignatureSpan">(str, data)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.helpers.randomize">
+            function <span class="apidocSignatureSpan">faker.helpers.</span>randomize
+            <span class="apidocSignatureSpan">(array)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.helpers.replaceSymbolWithNumber">
+            function <span class="apidocSignatureSpan">faker.helpers.</span>replaceSymbolWithNumber
+            <span class="apidocSignatureSpan">(string, symbol)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.helpers.replaceSymbols">
+            function <span class="apidocSignatureSpan">faker.helpers.</span>replaceSymbols
+            <span class="apidocSignatureSpan">(string)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.helpers.shuffle">
+            function <span class="apidocSignatureSpan">faker.helpers.</span>shuffle
+            <span class="apidocSignatureSpan">(o)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.helpers.slugify">
+            function <span class="apidocSignatureSpan">faker.helpers.</span>slugify
+            <span class="apidocSignatureSpan">(string)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.helpers.userCard">
+            function <span class="apidocSignatureSpan">faker.helpers.</span>userCard
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.iban">module faker.iban</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.iban.mod97">
+            function <span class="apidocSignatureSpan">faker.iban.</span>mod97
+            <span class="apidocSignatureSpan">(digitStr)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.iban.toDigitString">
+            function <span class="apidocSignatureSpan">faker.iban.</span>toDigitString
+            <span class="apidocSignatureSpan">(str)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.iban.</span>alpha</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.iban.</span>formats</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.iban.</span>iso3166</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.iban.</span>pattern10</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">faker.iban.</span>pattern100</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.image">module faker.image</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.image">
+            function <span class="apidocSignatureSpan">faker.</span>image
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.abstract">
+            function <span class="apidocSignatureSpan">faker.image.</span>abstract
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.animals">
+            function <span class="apidocSignatureSpan">faker.image.</span>animals
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.avatar">
+            function <span class="apidocSignatureSpan">faker.image.</span>avatar
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.business">
+            function <span class="apidocSignatureSpan">faker.image.</span>business
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.cats">
+            function <span class="apidocSignatureSpan">faker.image.</span>cats
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.city">
+            function <span class="apidocSignatureSpan">faker.image.</span>city
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.dataUri">
+            function <span class="apidocSignatureSpan">faker.image.</span>dataUri
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.fashion">
+            function <span class="apidocSignatureSpan">faker.image.</span>fashion
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.food">
+            function <span class="apidocSignatureSpan">faker.image.</span>food
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.imageUrl">
+            function <span class="apidocSignatureSpan">faker.image.</span>imageUrl
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.nature">
+            function <span class="apidocSignatureSpan">faker.image.</span>nature
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.nightlife">
+            function <span class="apidocSignatureSpan">faker.image.</span>nightlife
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.people">
+            function <span class="apidocSignatureSpan">faker.image.</span>people
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.sports">
+            function <span class="apidocSignatureSpan">faker.image.</span>sports
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.technics">
+            function <span class="apidocSignatureSpan">faker.image.</span>technics
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.image.transport">
+            function <span class="apidocSignatureSpan">faker.image.</span>transport
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.index">module faker.index</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.index.index">
+            function <span class="apidocSignatureSpan">faker.</span>index
+            <span class="apidocSignatureSpan">(opts)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.index.prototype">module faker.index.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.index.prototype.seed">
+            function <span class="apidocSignatureSpan">faker.index.prototype.</span>seed
+            <span class="apidocSignatureSpan">(value)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.internet">module faker.internet</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.internet.avatar">
+            function <span class="apidocSignatureSpan">faker.internet.</span>avatar
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.internet.color">
+            function <span class="apidocSignatureSpan">faker.internet.</span>color
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.internet.domainName">
+            function <span class="apidocSignatureSpan">faker.internet.</span>domainName
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.internet.domainSuffix">
+            function <span class="apidocSignatureSpan">faker.internet.</span>domainSuffix
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.internet.domainWord">
+            function <span class="apidocSignatureSpan">faker.internet.</span>domainWord
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.internet.email">
+            function <span class="apidocSignatureSpan">faker.internet.</span>email
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.internet.exampleEmail">
+            function <span class="apidocSignatureSpan">faker.internet.</span>exampleEmail
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.internet.ip">
+            function <span class="apidocSignatureSpan">faker.internet.</span>ip
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.internet.ipv6">
+            function <span class="apidocSignatureSpan">faker.internet.</span>ipv6
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.internet.mac">
+            function <span class="apidocSignatureSpan">faker.internet.</span>mac
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.internet.password">
+            function <span class="apidocSignatureSpan">faker.internet.</span>password
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.internet.protocol">
+            function <span class="apidocSignatureSpan">faker.internet.</span>protocol
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.internet.url">
+            function <span class="apidocSignatureSpan">faker.internet.</span>url
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.internet.userAgent">
+            function <span class="apidocSignatureSpan">faker.internet.</span>userAgent
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.internet.userName">
+            function <span class="apidocSignatureSpan">faker.internet.</span>userName
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.lorem">module faker.lorem</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.lorem.lines">
+            function <span class="apidocSignatureSpan">faker.lorem.</span>lines
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.lorem.paragraph">
+            function <span class="apidocSignatureSpan">faker.lorem.</span>paragraph
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.lorem.paragraphs">
+            function <span class="apidocSignatureSpan">faker.lorem.</span>paragraphs
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.lorem.sentence">
+            function <span class="apidocSignatureSpan">faker.lorem.</span>sentence
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.lorem.sentences">
+            function <span class="apidocSignatureSpan">faker.lorem.</span>sentences
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.lorem.slug">
+            function <span class="apidocSignatureSpan">faker.lorem.</span>slug
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.lorem.text">
+            function <span class="apidocSignatureSpan">faker.lorem.</span>text
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.lorem.word">
+            function <span class="apidocSignatureSpan">faker.lorem.</span>word
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.lorem.words">
+            function <span class="apidocSignatureSpan">faker.lorem.</span>words
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.name">module faker.name</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.name.findName">
+            function <span class="apidocSignatureSpan">faker.name.</span>findName
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.name.firstName">
+            function <span class="apidocSignatureSpan">faker.name.</span>firstName
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.name.jobArea">
+            function <span class="apidocSignatureSpan">faker.name.</span>jobArea
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.name.jobDescriptor">
+            function <span class="apidocSignatureSpan">faker.name.</span>jobDescriptor
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.name.jobTitle">
+            function <span class="apidocSignatureSpan">faker.name.</span>jobTitle
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.name.jobType">
+            function <span class="apidocSignatureSpan">faker.name.</span>jobType
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.name.lastName">
+            function <span class="apidocSignatureSpan">faker.name.</span>lastName
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.name.prefix">
+            function <span class="apidocSignatureSpan">faker.name.</span>prefix
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.name.suffix">
+            function <span class="apidocSignatureSpan">faker.name.</span>suffix
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.name.title">
+            function <span class="apidocSignatureSpan">faker.name.</span>title
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.phone">module faker.phone</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.phone.phoneFormats">
+            function <span class="apidocSignatureSpan">faker.phone.</span>phoneFormats
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.phone.phoneNumber">
+            function <span class="apidocSignatureSpan">faker.phone.</span>phoneNumber
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.phone.phoneNumberFormat">
+            function <span class="apidocSignatureSpan">faker.phone.</span>phoneNumberFormat
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.random">module faker.random</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.random.alphaNumeric">
+            function <span class="apidocSignatureSpan">faker.random.</span>alphaNumeric
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.random.arrayElement">
+            function <span class="apidocSignatureSpan">faker.random.</span>arrayElement
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.random.boolean">
+            function <span class="apidocSignatureSpan">faker.random.</span>boolean
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.random.image">
+            function <span class="apidocSignatureSpan">faker.random.</span>image
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.random.locale">
+            function <span class="apidocSignatureSpan">faker.random.</span>locale
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.random.number">
+            function <span class="apidocSignatureSpan">faker.random.</span>number
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.random.objectElement">
+            function <span class="apidocSignatureSpan">faker.random.</span>objectElement
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.random.uuid">
+            function <span class="apidocSignatureSpan">faker.random.</span>uuid
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.random.word">
+            function <span class="apidocSignatureSpan">faker.random.</span>word
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.random.words">
+            function <span class="apidocSignatureSpan">faker.random.</span>words
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.faker.system">module faker.system</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.system.commonFileExt">
+            function <span class="apidocSignatureSpan">faker.system.</span>commonFileExt
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.system.commonFileName">
+            function <span class="apidocSignatureSpan">faker.system.</span>commonFileName
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.system.commonFileType">
+            function <span class="apidocSignatureSpan">faker.system.</span>commonFileType
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.system.directoryPath">
+            function <span class="apidocSignatureSpan">faker.system.</span>directoryPath
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.system.fileExt">
+            function <span class="apidocSignatureSpan">faker.system.</span>fileExt
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.system.fileName">
+            function <span class="apidocSignatureSpan">faker.system.</span>fileName
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.system.filePath">
+            function <span class="apidocSignatureSpan">faker.system.</span>filePath
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.system.fileType">
+            function <span class="apidocSignatureSpan">faker.system.</span>fileType
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.system.mimeType">
+            function <span class="apidocSignatureSpan">faker.system.</span>mimeType
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.faker.system.semver">
+            function <span class="apidocSignatureSpan">faker.system.</span>semver
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker" id="apidoc.module.faker">module faker</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.fake" id="apidoc.element.faker.fake">
+        function <span class="apidocSignatureSpan">faker.</span>fake
+        <span class="apidocSignatureSpan">(str)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function fake(str) {
+  // setup default response as empty string
+  var res = &#x27;&#x27;;
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== &#x27;string&#x27; || str.length === 0) {
+    res = &#x27;string parameter is required!&#x27;;
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search(&#x27;{{&#x27;);
+  var end = str.search(&#x27;}}&#x27;);
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 &#x26;&#x26; end === -1) {
+    return str;
+  }
+
+  // console.log(&#x27;attempting to parse&#x27;, str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace(&#x27;}}&#x27;, &#x27;&#x27;).replace(&#x27;{{&#x27;, &#x27;&#x27;);
+
+  // console.log(&#x27;method&#x27;, method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = &#x27;&#x27;;
+  if (matches) {
+    method = method.replace(regExp, &#x27;&#x27;);
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split(&#x27;.&#x27;);
+
+  if (typeof faker[parts[0]] === &#x22;undefined&#x22;) {
+    throw new Error(&#x27;Invalid module: &#x27; + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === &#x22;undefined&#x22;) {
+    throw new Error(&#x27;Invalid method: &#x27; + parts[0] + &#x22;.&#x22; + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === &#x22;string&#x22; &#x26;&#x26; params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace(&#x27;{{&#x27; + token + &#x27;}}&#x27;, result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.<span class="apidocCodeKeywordSpan">fake</span>()
+
+faker.js contains a super useful generator method `Faker.fake` for combining faker API methods using a mustache string format.
+
+**Example:**
+
+``` js
+console.log(faker.fake(&#x22;{{name.lastName}}, {{name.firstName}} {{name.suffix}}&#x22;));
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.index" id="apidoc.element.faker.index">
+        function <span class="apidocSignatureSpan">faker.</span>index
+        <span class="apidocSignatureSpan">(opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Faker(opts) {
+
+  var self = this;
+
+  opts = opts || {};
+
+  // assign options
+  var locales = self.locales || opts.locales || {};
+  var locale = self.locale || opts.locale || &#x22;en&#x22;;
+  var localeFallback = self.localeFallback || opts.localeFallback || &#x22;en&#x22;;
+
+  self.locales = locales;
+  self.locale = locale;
+  self.localeFallback = localeFallback;
+
+  self.definitions = {};
+
+  function bindAll(obj) {
+      Object.keys(obj).forEach(function(meth) {
+          if (typeof obj[meth] === &#x27;function&#x27;) {
+              obj[meth] = obj[meth].bind(obj);
+          }
+      });
+      return obj;
+  }
+
+  var Fake = require(&#x27;./fake&#x27;);
+  self.fake = new Fake(self).fake;
+
+  var Random = require(&#x27;./random&#x27;);
+  self.random = bindAll(new Random(self));
+
+  var Helpers = require(&#x27;./helpers&#x27;);
+  self.helpers = new Helpers(self);
+
+  var Name = require(&#x27;./name&#x27;);
+  self.name = bindAll(new Name(self));
+
+  var Address = require(&#x27;./address&#x27;);
+  self.address = bindAll(new Address(self));
+
+  var Company = require(&#x27;./company&#x27;);
+  self.company = bindAll(new Company(self));
+
+  var Finance = require(&#x27;./finance&#x27;);
+  self.finance = bindAll(new Finance(self));
+
+  var Image = require(&#x27;./image&#x27;);
+  self.image = bindAll(new Image(self));
+
+  var Lorem = require(&#x27;./lorem&#x27;);
+  self.lorem = bindAll(new Lorem(self));
+
+  var Hacker = require(&#x27;./hacker&#x27;);
+  self.hacker = bindAll(new Hacker(self));
+
+  var Internet = require(&#x27;./internet&#x27;);
+  self.internet = bindAll(new Internet(self));
+
+  var Database = require(&#x27;./database&#x27;);
+  self.database = bindAll(new Database(self));
+
+  var Phone = require(&#x27;./phone_number&#x27;);
+  self.phone = bindAll(new Phone(self));
+
+  var _Date = require(&#x27;./date&#x27;);
+  self.date = bindAll(new _Date(self));
+
+  var Commerce = require(&#x27;./commerce&#x27;);
+  self.commerce = bindAll(new Commerce(self));
+
+  var System = require(&#x27;./system&#x27;);
+  self.system = bindAll(new System(self));
+
+  var _definitions = {
+    &#x22;name&#x22;: [&#x22;first_name&#x22;, &#x22;last_name&#x22;, &#x22;prefix&#x22;, &#x22;suffix&#x22;, &#x22;title&#x22;, &#x22;male_first_name&#x22;, &#x22;female_first_name&#x22;, &#x22;male_middle_name&#x22;, &#x22;
+female_middle_name&#x22;, &#x22;male_last_name&#x22;, &#x22;female_last_name&#x22;],
+    &#x22;address&#x22;: [&#x22;city_prefix&#x22;, &#x22;city_suffix&#x22;, &#x22;street_suffix&#x22;, &#x22;county&#x22;, &#x22;country&#x22;, &#x22;country_code&#x22;, &#x22;state&#x22;, &#x22;state_abbr&#x22;, &#x22;street_prefix
+&#x22;, &#x22;postcode&#x22;],
+    &#x22;company&#x22;: [&#x22;adjective&#x22;, &#x22;noun&#x22;, &#x22;descriptor&#x22;, &#x22;bs_adjective&#x22;, &#x22;bs_noun&#x22;, &#x22;bs_verb&#x22;, &#x22;suffix&#x22;],
+    &#x22;lorem&#x22;: [&#x22;words&#x22;],
+    &#x22;hacker&#x22;: [&#x22;abbreviation&#x22;, &#x22;adjective&#x22;, &#x22;noun&#x22;, &#x22;verb&#x22;, &#x22;ingverb&#x22;],
+    &#x22;phone_number&#x22;: [&#x22;formats&#x22;],
+    &#x22;finance&#x22;: [&#x22;account_type&#x22;, &#x22;transaction_type&#x22;, &#x22;currency&#x22;, &#x22;iban&#x22;],
+    &#x22;internet&#x22;: [&#x22;avatar_uri&#x22;, &#x22;domain_suffix&#x22;, &#x22;free_email&#x22;, &#x22;example_email&#x22;, &#x22;password&#x22;],
+    &#x22;commerce&#x22;: [&#x22;color&#x22;, &#x22;department&#x22;, &#x22;product_name&#x22;, &#x22;price&#x22;, &#x22;categories&#x22;],
+    &#x22;database&#x22;: [&#x22;collation&#x22;, &#x22;column&#x22;, &#x22;engine&#x22;, &#x22;type&#x22;],
+    &#x22;system&#x22;: [&#x22;mimeTypes&#x22;],
+    &#x22;date&#x22;: [&#x22;month&#x22;, &#x22;weekday&#x22;],
+    &#x22;title&#x22;: &#x22;&#x22;,
+    &#x22;separator&#x22;: &#x22;&#x22;
+  };
+
+  // Create a Getter for all definitions.foo.bar properties
+  Object.keys(_definitions).forEach(function(d){
+    if (typeof self.definitions[d] === &#x22;undefined&#x22;) {
+      self.definitions[d] = {};
+    }
+
+    if (typeof _definitions[d] === &#x22;string&#x22;) {
+        self.definitions[d] = _definitions[d];
+      return;
+    }
+
+    _definitions[d].forEach(function(p){
+      Object.defineProperty(self.definitions[d], p, {
+        get: function () {
+          if (typeof self.locales[self.locale][d] === &#x22;undefined&#x22; || typeof self.locales[self.locale][d][p] === &#x22;undefined&#x22;) {
+            // certain localization sets contain less data then others.
+            // in the case of a missing definition, use the default localeFallback to substitute the missing set data
+            // throw new Error(&#x27;unknown property &#x27; + d + p)
+            return self.locales[localeFallback][d][p];
+          } else {
+            // return localized data
+            return self.locales[self.locale][d][p];
+          }
+        }
+      });
+    });
+  });
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.address" id="apidoc.module.faker.address">module faker.address</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.address.city" id="apidoc.element.faker.address.city">
+        function <span class="apidocSignatureSpan">faker.address.</span>city
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">city = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+&#x22;username&#x22;: faker.internet.userName(),
+&#x22;email&#x22;: faker.internet.email(),
+&#x22;address&#x22;: {
+    &#x22;streetA&#x22;: faker.address.streetName(),
+    &#x22;streetB&#x22;: faker.address.streetAddress(),
+    &#x22;streetC&#x22;: faker.address.streetAddress(true),
+    &#x22;streetD&#x22;: faker.address.secondaryAddress(),
+    &#x22;city&#x22;: faker.address.<span class="apidocCodeKeywordSpan">city</span>(),
+    &#x22;state&#x22;: faker.address.state(),
+    &#x22;country&#x22;: faker.address.country(),
+    &#x22;zipcode&#x22;: faker.address.zipCode(),
+    &#x22;geo&#x22;: {
+        &#x22;lat&#x22;: faker.address.latitude(),
+        &#x22;lng&#x22;: faker.address.longitude()
+    }
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.address.cityPrefix" id="apidoc.element.faker.address.cityPrefix">
+        function <span class="apidocSignatureSpan">faker.address.</span>cityPrefix
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">cityPrefix = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.address.citySuffix" id="apidoc.element.faker.address.citySuffix">
+        function <span class="apidocSignatureSpan">faker.address.</span>citySuffix
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">citySuffix = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.address.country" id="apidoc.element.faker.address.country">
+        function <span class="apidocSignatureSpan">faker.address.</span>country
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">country = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+&#x22;address&#x22;: {
+    &#x22;streetA&#x22;: faker.address.streetName(),
+    &#x22;streetB&#x22;: faker.address.streetAddress(),
+    &#x22;streetC&#x22;: faker.address.streetAddress(true),
+    &#x22;streetD&#x22;: faker.address.secondaryAddress(),
+    &#x22;city&#x22;: faker.address.city(),
+    &#x22;state&#x22;: faker.address.state(),
+    &#x22;country&#x22;: faker.address.<span class="apidocCodeKeywordSpan">country</span>(),
+    &#x22;zipcode&#x22;: faker.address.zipCode(),
+    &#x22;geo&#x22;: {
+        &#x22;lat&#x22;: faker.address.latitude(),
+        &#x22;lng&#x22;: faker.address.longitude()
+    }
+},
+&#x22;phone&#x22;: faker.phone.phoneNumber(),
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.address.countryCode" id="apidoc.element.faker.address.countryCode">
+        function <span class="apidocSignatureSpan">faker.address.</span>countryCode
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">countryCode = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.address.county" id="apidoc.element.faker.address.county">
+        function <span class="apidocSignatureSpan">faker.address.</span>county
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">county = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.address.latitude" id="apidoc.element.faker.address.latitude">
+        function <span class="apidocSignatureSpan">faker.address.</span>latitude
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">latitude = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    &#x22;streetC&#x22;: faker.address.streetAddress(true),
+    &#x22;streetD&#x22;: faker.address.secondaryAddress(),
+    &#x22;city&#x22;: faker.address.city(),
+    &#x22;state&#x22;: faker.address.state(),
+    &#x22;country&#x22;: faker.address.country(),
+    &#x22;zipcode&#x22;: faker.address.zipCode(),
+    &#x22;geo&#x22;: {
+        &#x22;lat&#x22;: faker.address.<span class="apidocCodeKeywordSpan">latitude</span>(),
+        &#x22;lng&#x22;: faker.address.longitude()
+    }
+},
+&#x22;phone&#x22;: faker.phone.phoneNumber(),
+&#x22;website&#x22;: faker.internet.domainName(),
+&#x22;company&#x22;: {
+    &#x22;name&#x22;: faker.company.companyName(),
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.address.longitude" id="apidoc.element.faker.address.longitude">
+        function <span class="apidocSignatureSpan">faker.address.</span>longitude
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">longitude = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    &#x22;streetD&#x22;: faker.address.secondaryAddress(),
+    &#x22;city&#x22;: faker.address.city(),
+    &#x22;state&#x22;: faker.address.state(),
+    &#x22;country&#x22;: faker.address.country(),
+    &#x22;zipcode&#x22;: faker.address.zipCode(),
+    &#x22;geo&#x22;: {
+        &#x22;lat&#x22;: faker.address.latitude(),
+        &#x22;lng&#x22;: faker.address.<span class="apidocCodeKeywordSpan">longitude</span>()
+    }
+},
+&#x22;phone&#x22;: faker.phone.phoneNumber(),
+&#x22;website&#x22;: faker.internet.domainName(),
+&#x22;company&#x22;: {
+    &#x22;name&#x22;: faker.company.companyName(),
+    &#x22;catchPhrase&#x22;: faker.company.catchPhrase(),
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.address.secondaryAddress" id="apidoc.element.faker.address.secondaryAddress">
+        function <span class="apidocSignatureSpan">faker.address.</span>secondaryAddress
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">secondaryAddress = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    case 1:
+        address = Helpers.replaceSymbolWithNumber(&#x22;####&#x22;) +  &#x22; &#x22; + faker.address.streetName();
+        break;
+    case 2:
+        address = Helpers.replaceSymbolWithNumber(&#x22;###&#x22;) + &#x22; &#x22; + faker.address.streetName();
+        break;
+    }
+    return useFullAddress ? (address + &#x22; &#x22; + faker.address.<span class="apidocCodeKeywordSpan">secondaryAddress</span>()) :
+address;
+}
+
+/**
+ * streetSuffix
+ *
+ * @method faker.address.streetSuffix
+ */
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.address.state" id="apidoc.element.faker.address.state">
+        function <span class="apidocSignatureSpan">faker.address.</span>state
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">state = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+&#x22;email&#x22;: faker.internet.email(),
+&#x22;address&#x22;: {
+    &#x22;streetA&#x22;: faker.address.streetName(),
+    &#x22;streetB&#x22;: faker.address.streetAddress(),
+    &#x22;streetC&#x22;: faker.address.streetAddress(true),
+    &#x22;streetD&#x22;: faker.address.secondaryAddress(),
+    &#x22;city&#x22;: faker.address.city(),
+    &#x22;state&#x22;: faker.address.<span class="apidocCodeKeywordSpan">state</span>(),
+    &#x22;country&#x22;: faker.address.country(),
+    &#x22;zipcode&#x22;: faker.address.zipCode(),
+    &#x22;geo&#x22;: {
+        &#x22;lat&#x22;: faker.address.latitude(),
+        &#x22;lng&#x22;: faker.address.longitude()
+    }
+},
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.address.stateAbbr" id="apidoc.element.faker.address.stateAbbr">
+        function <span class="apidocSignatureSpan">faker.address.</span>stateAbbr
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">stateAbbr = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.address.streetAddress" id="apidoc.element.faker.address.streetAddress">
+        function <span class="apidocSignatureSpan">faker.address.</span>streetAddress
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">streetAddress = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  self.createCard = function () {
+return {
+    &#x22;name&#x22;: faker.name.findName(),
+    &#x22;username&#x22;: faker.internet.userName(),
+    &#x22;email&#x22;: faker.internet.email(),
+    &#x22;address&#x22;: {
+        &#x22;streetA&#x22;: faker.address.streetName(),
+        &#x22;streetB&#x22;: faker.address.<span class="apidocCodeKeywordSpan">streetAddress</span>(),
+        &#x22;streetC&#x22;: faker.address.streetAddress(true),
+        &#x22;streetD&#x22;: faker.address.secondaryAddress(),
+        &#x22;city&#x22;: faker.address.city(),
+        &#x22;state&#x22;: faker.address.state(),
+        &#x22;country&#x22;: faker.address.country(),
+        &#x22;zipcode&#x22;: faker.address.zipCode(),
+        &#x22;geo&#x22;: {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.address.streetName" id="apidoc.element.faker.address.streetName">
+        function <span class="apidocSignatureSpan">faker.address.</span>streetName
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">streetName = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * @param {Boolean} useFullAddress
+ */
+this.streetAddress = function (useFullAddress) {
+    if (useFullAddress === undefined) { useFullAddress = false; }
+    var address = &#x22;&#x22;;
+    switch (faker.random.number(2)) {
+    case 0:
+        address = Helpers.replaceSymbolWithNumber(&#x22;#####&#x22;) + &#x22; &#x22; + faker.address.<span class="apidocCodeKeywordSpan
+">streetName</span>();
+        break;
+    case 1:
+        address = Helpers.replaceSymbolWithNumber(&#x22;####&#x22;) +  &#x22; &#x22; + faker.address.streetName();
+        break;
+    case 2:
+        address = Helpers.replaceSymbolWithNumber(&#x22;###&#x22;) + &#x22; &#x22; + faker.address.streetName();
+        break;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.address.streetPrefix" id="apidoc.element.faker.address.streetPrefix">
+        function <span class="apidocSignatureSpan">faker.address.</span>streetPrefix
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">streetPrefix = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.address.streetSuffix" id="apidoc.element.faker.address.streetSuffix">
+        function <span class="apidocSignatureSpan">faker.address.</span>streetSuffix
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">streetSuffix = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  /**
+   * Returns a random localized street name
+   *
+   * @method faker.address.streetName
+   */
+  this.streetName = function () {
+var result;
+var suffix = faker.address.<span class="apidocCodeKeywordSpan">streetSuffix</span>();
+if (suffix !== &#x22;&#x22;) {
+    suffix = &#x22; &#x22; + suffix
+}
+
+switch (faker.random.number(1)) {
+case 0:
+    result = faker.name.lastName() + suffix;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.address.zipCode" id="apidoc.element.faker.address.zipCode">
+        function <span class="apidocSignatureSpan">faker.address.</span>zipCode
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">zipCode = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    &#x22;streetA&#x22;: faker.address.streetName(),
+    &#x22;streetB&#x22;: faker.address.streetAddress(),
+    &#x22;streetC&#x22;: faker.address.streetAddress(true),
+    &#x22;streetD&#x22;: faker.address.secondaryAddress(),
+    &#x22;city&#x22;: faker.address.city(),
+    &#x22;state&#x22;: faker.address.state(),
+    &#x22;country&#x22;: faker.address.country(),
+    &#x22;zipcode&#x22;: faker.address.<span class="apidocCodeKeywordSpan">zipCode</span>(),
+    &#x22;geo&#x22;: {
+        &#x22;lat&#x22;: faker.address.latitude(),
+        &#x22;lng&#x22;: faker.address.longitude()
+    }
+},
+&#x22;phone&#x22;: faker.phone.phoneNumber(),
+&#x22;website&#x22;: faker.internet.domainName(),
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.commerce" id="apidoc.module.faker.commerce">module faker.commerce</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.commerce.color" id="apidoc.element.faker.commerce.color">
+        function <span class="apidocSignatureSpan">faker.commerce.</span>color
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">color = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.commerce.department" id="apidoc.element.faker.commerce.department">
+        function <span class="apidocSignatureSpan">faker.commerce.</span>department
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">department = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.commerce.price" id="apidoc.element.faker.commerce.price">
+        function <span class="apidocSignatureSpan">faker.commerce.</span>price
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">price = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.commerce.product" id="apidoc.element.faker.commerce.product">
+        function <span class="apidocSignatureSpan">faker.commerce.</span>product
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">product = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * productName
+ *
+ * @method faker.commerce.productName
+ */
+self.productName = function() {
+    return faker.commerce.productAdjective() + &#x22; &#x22; +
+            faker.commerce.productMaterial() + &#x22; &#x22; +
+            faker.commerce.<span class="apidocCodeKeywordSpan">product</span>();
+};
+
+/**
+ * price
+ *
+ * @method faker.commerce.price
+ * @param {number} min
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.commerce.productAdjective" id="apidoc.element.faker.commerce.productAdjective">
+        function <span class="apidocSignatureSpan">faker.commerce.</span>productAdjective
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">productAdjective = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+/**
+ * productName
+ *
+ * @method faker.commerce.productName
+ */
+self.productName = function() {
+    return faker.commerce.<span class="apidocCodeKeywordSpan">productAdjective</span>() + &#x22; &#x22; +
+            faker.commerce.productMaterial() + &#x22; &#x22; +
+            faker.commerce.product();
+};
+
+/**
+ * price
+ *
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.commerce.productMaterial" id="apidoc.element.faker.commerce.productMaterial">
+        function <span class="apidocSignatureSpan">faker.commerce.</span>productMaterial
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">productMaterial = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+/**
+ * productName
+ *
+ * @method faker.commerce.productName
+ */
+self.productName = function() {
+    return faker.commerce.productAdjective() + &#x22; &#x22; +
+            faker.commerce.<span class="apidocCodeKeywordSpan">productMaterial</span>() + &#x22; &#x22; +
+            faker.commerce.product();
+};
+
+/**
+ * price
+ *
+ * @method faker.commerce.price
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.commerce.productName" id="apidoc.element.faker.commerce.productName">
+        function <span class="apidocSignatureSpan">faker.commerce.</span>productName
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">productName = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.company" id="apidoc.module.faker.company">module faker.company</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.company.bs" id="apidoc.element.faker.company.bs">
+        function <span class="apidocSignatureSpan">faker.company.</span>bs
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">bs = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    }
+},
+&#x22;phone&#x22;: faker.phone.phoneNumber(),
+&#x22;website&#x22;: faker.internet.domainName(),
+&#x22;company&#x22;: {
+    &#x22;name&#x22;: faker.company.companyName(),
+    &#x22;catchPhrase&#x22;: faker.company.catchPhrase(),
+    &#x22;bs&#x22;: faker.company.<span class="apidocCodeKeywordSpan">bs</span>()
+},
+&#x22;posts&#x22;: [
+    {
+        &#x22;words&#x22;: faker.lorem.words(),
+        &#x22;sentence&#x22;: faker.lorem.sentence(),
+        &#x22;sentences&#x22;: faker.lorem.sentences(),
+        &#x22;paragraph&#x22;: faker.lorem.paragraph()
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.company.bsAdjective" id="apidoc.element.faker.company.bsAdjective">
+        function <span class="apidocSignatureSpan">faker.company.</span>bsAdjective
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">bsAdjective = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.company.bsBuzz" id="apidoc.element.faker.company.bsBuzz">
+        function <span class="apidocSignatureSpan">faker.company.</span>bsBuzz
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">bsBuzz = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.company.bsNoun" id="apidoc.element.faker.company.bsNoun">
+        function <span class="apidocSignatureSpan">faker.company.</span>bsNoun
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">bsNoun = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.company.catchPhrase" id="apidoc.element.faker.company.catchPhrase">
+        function <span class="apidocSignatureSpan">faker.company.</span>catchPhrase
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">catchPhrase = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        &#x22;lng&#x22;: faker.address.longitude()
+    }
+},
+&#x22;phone&#x22;: faker.phone.phoneNumber(),
+&#x22;website&#x22;: faker.internet.domainName(),
+&#x22;company&#x22;: {
+    &#x22;name&#x22;: faker.company.companyName(),
+    &#x22;catchPhrase&#x22;: faker.company.<span class="apidocCodeKeywordSpan">catchPhrase</span>(),
+    &#x22;bs&#x22;: faker.company.bs()
+},
+&#x22;posts&#x22;: [
+    {
+        &#x22;words&#x22;: faker.lorem.words(),
+        &#x22;sentence&#x22;: faker.lorem.sentence(),
+        &#x22;sentences&#x22;: faker.lorem.sentences(),
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.company.catchPhraseAdjective" id="apidoc.element.faker.company.catchPhraseAdjective">
+        function <span class="apidocSignatureSpan">faker.company.</span>catchPhraseAdjective
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">catchPhraseAdjective = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.company.catchPhraseDescriptor" id="apidoc.element.faker.company.catchPhraseDescriptor">
+        function <span class="apidocSignatureSpan">faker.company.</span>catchPhraseDescriptor
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">catchPhraseDescriptor = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.company.catchPhraseNoun" id="apidoc.element.faker.company.catchPhraseNoun">
+        function <span class="apidocSignatureSpan">faker.company.</span>catchPhraseNoun
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">catchPhraseNoun = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.company.companyName" id="apidoc.element.faker.company.companyName">
+        function <span class="apidocSignatureSpan">faker.company.</span>companyName
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">companyName = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+        &#x22;lat&#x22;: faker.address.latitude(),
+        &#x22;lng&#x22;: faker.address.longitude()
+    }
+},
+&#x22;phone&#x22;: faker.phone.phoneNumber(),
+&#x22;website&#x22;: faker.internet.domainName(),
+&#x22;company&#x22;: {
+    &#x22;name&#x22;: faker.company.<span class="apidocCodeKeywordSpan">companyName</span>(),
+    &#x22;catchPhrase&#x22;: faker.company.catchPhrase(),
+    &#x22;bs&#x22;: faker.company.bs()
+},
+&#x22;posts&#x22;: [
+    {
+        &#x22;words&#x22;: faker.lorem.words(),
+        &#x22;sentence&#x22;: faker.lorem.sentence(),
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.company.companySuffix" id="apidoc.element.faker.company.companySuffix">
+        function <span class="apidocSignatureSpan">faker.company.</span>companySuffix
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">companySuffix = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.company.suffixes" id="apidoc.element.faker.company.suffixes">
+        function <span class="apidocSignatureSpan">faker.company.</span>suffixes
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">suffixes = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+/**
+ * companySuffix
+ *
+ * @method faker.company.companySuffix
+ */
+this.companySuffix = function () {
+    return faker.random.arrayElement(faker.company.<span class="apidocCodeKeywordSpan">suffixes</span>());
+}
+
+/**
+ * catchPhrase
+ *
+ * @method faker.company.catchPhrase
+ */
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.database" id="apidoc.module.faker.database">module faker.database</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.database.collation" id="apidoc.element.faker.database.collation">
+        function <span class="apidocSignatureSpan">faker.database.</span>collation
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">collation = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.database.column" id="apidoc.element.faker.database.column">
+        function <span class="apidocSignatureSpan">faker.database.</span>column
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">column = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.database.engine" id="apidoc.element.faker.database.engine">
+        function <span class="apidocSignatureSpan">faker.database.</span>engine
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">engine = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.database.type" id="apidoc.element.faker.database.type">
+        function <span class="apidocSignatureSpan">faker.database.</span>type
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">type = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.date" id="apidoc.module.faker.date">module faker.date</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.date.between" id="apidoc.element.faker.date.between">
+        function <span class="apidocSignatureSpan">faker.date.</span>between
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">between = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.date.future" id="apidoc.element.faker.date.future">
+        function <span class="apidocSignatureSpan">faker.date.</span>future
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">future = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.date.month" id="apidoc.element.faker.date.month">
+        function <span class="apidocSignatureSpan">faker.date.</span>month
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">month = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.date.past" id="apidoc.element.faker.date.past">
+        function <span class="apidocSignatureSpan">faker.date.</span>past
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">past = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+var name = faker.name.firstName(),
+    userName = faker.internet.userName(name);
+return {
+    &#x22;name&#x22;: name,
+    &#x22;username&#x22;: userName,
+    &#x22;avatar&#x22;: faker.internet.avatar(),
+    &#x22;email&#x22;: faker.internet.email(userName),
+    &#x22;dob&#x22;: faker.date.<span class="apidocCodeKeywordSpan">past</span>(50, new Date(&#x22;Sat Sep 20 1992 21:35:02 GMT+
+0200 (CEST)&#x22;)),
+    &#x22;phone&#x22;: faker.phone.phoneNumber(),
+    &#x22;address&#x22;: {
+        &#x22;street&#x22;: faker.address.streetName(true),
+        &#x22;suite&#x22;: faker.address.secondaryAddress(),
+        &#x22;city&#x22;: faker.address.city(),
+        &#x22;zipcode&#x22;: faker.address.zipCode(),
+        &#x22;geo&#x22;: {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.date.recent" id="apidoc.element.faker.date.recent">
+        function <span class="apidocSignatureSpan">faker.date.</span>recent
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">recent = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.date.weekday" id="apidoc.element.faker.date.weekday">
+        function <span class="apidocSignatureSpan">faker.date.</span>weekday
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">weekday = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.finance" id="apidoc.module.faker.finance">module faker.finance</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.finance.account" id="apidoc.element.faker.finance.account">
+        function <span class="apidocSignatureSpan">faker.finance.</span>account
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">account = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+  self.createTransaction = function(){
+    return {
+      &#x22;amount&#x22; : faker.finance.amount(),
+      &#x22;date&#x22; : new Date(2012, 1, 2),  //TODO: add a ranged date method
+      &#x22;business&#x22;: faker.company.companyName(),
+      &#x22;name&#x22;: [faker.finance.accountName(), faker.finance.mask()].join(&#x27; &#x27;),
+      &#x22;type&#x22; : self.randomize(faker.definitions.finance.transaction_type),
+      &#x22;account&#x22; : faker.finance.<span class="apidocCodeKeywordSpan">account</span>()
+    };
+  };
+
+  return self;
+
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.finance.accountName" id="apidoc.element.faker.finance.accountName">
+        function <span class="apidocSignatureSpan">faker.finance.</span>accountName
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">accountName = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * @method faker.helpers.createTransaction
+ */
+self.createTransaction = function(){
+  return {
+    &#x22;amount&#x22; : faker.finance.amount(),
+    &#x22;date&#x22; : new Date(2012, 1, 2),  //TODO: add a ranged date method
+    &#x22;business&#x22;: faker.company.companyName(),
+    &#x22;name&#x22;: [faker.finance.<span class="apidocCodeKeywordSpan">accountName</span>(), faker.finance.mask()].join(&#x27; &#
+x27;),
+    &#x22;type&#x22; : self.randomize(faker.definitions.finance.transaction_type),
+    &#x22;account&#x22; : faker.finance.account()
+  };
+};
+
+return self;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.finance.amount" id="apidoc.element.faker.finance.amount">
+        function <span class="apidocSignatureSpan">faker.finance.</span>amount
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">amount = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+/**
+ * createTransaction
+ *
+ * @method faker.helpers.createTransaction
+ */
+self.createTransaction = function(){
+  return {
+    &#x22;amount&#x22; : faker.finance.<span class="apidocCodeKeywordSpan">amount</span>(),
+    &#x22;date&#x22; : new Date(2012, 1, 2),  //TODO: add a ranged date method
+    &#x22;business&#x22;: faker.company.companyName(),
+    &#x22;name&#x22;: [faker.finance.accountName(), faker.finance.mask()].join(&#x27; &#x27;),
+    &#x22;type&#x22; : self.randomize(faker.definitions.finance.transaction_type),
+    &#x22;account&#x22; : faker.finance.account()
+  };
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.finance.bic" id="apidoc.element.faker.finance.bic">
+        function <span class="apidocSignatureSpan">faker.finance.</span>bic
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">bic = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.finance.bitcoinAddress" id="apidoc.element.faker.finance.bitcoinAddress">
+        function <span class="apidocSignatureSpan">faker.finance.</span>bitcoinAddress
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">bitcoinAddress = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.finance.currencyCode" id="apidoc.element.faker.finance.currencyCode">
+        function <span class="apidocSignatureSpan">faker.finance.</span>currencyCode
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">currencyCode = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.finance.currencyName" id="apidoc.element.faker.finance.currencyName">
+        function <span class="apidocSignatureSpan">faker.finance.</span>currencyName
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">currencyName = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.finance.currencySymbol" id="apidoc.element.faker.finance.currencySymbol">
+        function <span class="apidocSignatureSpan">faker.finance.</span>currencySymbol
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">currencySymbol = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.finance.iban" id="apidoc.element.faker.finance.iban">
+        function <span class="apidocSignatureSpan">faker.finance.</span>iban
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">iban = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.finance.mask" id="apidoc.element.faker.finance.mask">
+        function <span class="apidocSignatureSpan">faker.finance.</span>mask
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">mask = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * @method faker.helpers.createTransaction
+ */
+self.createTransaction = function(){
+  return {
+    &#x22;amount&#x22; : faker.finance.amount(),
+    &#x22;date&#x22; : new Date(2012, 1, 2),  //TODO: add a ranged date method
+    &#x22;business&#x22;: faker.company.companyName(),
+    &#x22;name&#x22;: [faker.finance.accountName(), faker.finance.<span class="apidocCodeKeywordSpan">mask</span>()].join(&#x27; &#
+x27;),
+    &#x22;type&#x22; : self.randomize(faker.definitions.finance.transaction_type),
+    &#x22;account&#x22; : faker.finance.account()
+  };
+};
+
+return self;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.finance.transactionType" id="apidoc.element.faker.finance.transactionType">
+        function <span class="apidocSignatureSpan">faker.finance.</span>transactionType
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">transactionType = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.hacker" id="apidoc.module.faker.hacker">module faker.hacker</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.hacker.abbreviation" id="apidoc.element.faker.hacker.abbreviation">
+        function <span class="apidocSignatureSpan">faker.hacker.</span>abbreviation
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">abbreviation = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.hacker.adjective" id="apidoc.element.faker.hacker.adjective">
+        function <span class="apidocSignatureSpan">faker.hacker.</span>adjective
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">adjective = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.hacker.ingverb" id="apidoc.element.faker.hacker.ingverb">
+        function <span class="apidocSignatureSpan">faker.hacker.</span>ingverb
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ingverb = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.hacker.noun" id="apidoc.element.faker.hacker.noun">
+        function <span class="apidocSignatureSpan">faker.hacker.</span>noun
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">noun = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.hacker.phrase" id="apidoc.element.faker.hacker.phrase">
+        function <span class="apidocSignatureSpan">faker.hacker.</span>phrase
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">phrase = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.hacker.verb" id="apidoc.element.faker.hacker.verb">
+        function <span class="apidocSignatureSpan">faker.hacker.</span>verb
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">verb = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.helpers" id="apidoc.module.faker.helpers">module faker.helpers</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.helpers.contextualCard" id="apidoc.element.faker.helpers.contextualCard">
+        function <span class="apidocSignatureSpan">faker.helpers.</span>contextualCard
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">contextualCard = function () {
+  var name = faker.name.firstName(),
+      userName = faker.internet.userName(name);
+  return {
+      &#x22;name&#x22;: name,
+      &#x22;username&#x22;: userName,
+      &#x22;avatar&#x22;: faker.internet.avatar(),
+      &#x22;email&#x22;: faker.internet.email(userName),
+      &#x22;dob&#x22;: faker.date.past(50, new Date(&#x22;Sat Sep 20 1992 21:35:02 GMT+0200 (CEST)&#x22;)),
+      &#x22;phone&#x22;: faker.phone.phoneNumber(),
+      &#x22;address&#x22;: {
+          &#x22;street&#x22;: faker.address.streetName(true),
+          &#x22;suite&#x22;: faker.address.secondaryAddress(),
+          &#x22;city&#x22;: faker.address.city(),
+          &#x22;zipcode&#x22;: faker.address.zipCode(),
+          &#x22;geo&#x22;: {
+              &#x22;lat&#x22;: faker.address.latitude(),
+              &#x22;lng&#x22;: faker.address.longitude()
+          }
+      },
+      &#x22;website&#x22;: faker.internet.domainName(),
+      &#x22;company&#x22;: {
+          &#x22;name&#x22;: faker.company.companyName(),
+          &#x22;catchPhrase&#x22;: faker.company.catchPhrase(),
+          &#x22;bs&#x22;: faker.company.bs()
+      }
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.helpers.createCard" id="apidoc.element.faker.helpers.createCard">
+        function <span class="apidocSignatureSpan">faker.helpers.</span>createCard
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">createCard = function () {
+    return {
+        &#x22;name&#x22;: faker.name.findName(),
+        &#x22;username&#x22;: faker.internet.userName(),
+        &#x22;email&#x22;: faker.internet.email(),
+        &#x22;address&#x22;: {
+            &#x22;streetA&#x22;: faker.address.streetName(),
+            &#x22;streetB&#x22;: faker.address.streetAddress(),
+            &#x22;streetC&#x22;: faker.address.streetAddress(true),
+            &#x22;streetD&#x22;: faker.address.secondaryAddress(),
+            &#x22;city&#x22;: faker.address.city(),
+            &#x22;state&#x22;: faker.address.state(),
+            &#x22;country&#x22;: faker.address.country(),
+            &#x22;zipcode&#x22;: faker.address.zipCode(),
+            &#x22;geo&#x22;: {
+                &#x22;lat&#x22;: faker.address.latitude(),
+                &#x22;lng&#x22;: faker.address.longitude()
+            }
+        },
+        &#x22;phone&#x22;: faker.phone.phoneNumber(),
+        &#x22;website&#x22;: faker.internet.domainName(),
+        &#x22;company&#x22;: {
+            &#x22;name&#x22;: faker.company.companyName(),
+            &#x22;catchPhrase&#x22;: faker.company.catchPhrase(),
+            &#x22;bs&#x22;: faker.company.bs()
+        },
+        &#x22;posts&#x22;: [
+            {
+                &#x22;words&#x22;: faker.lorem.words(),
+                &#x22;sentence&#x22;: faker.lorem.sentence(),
+                &#x22;sentences&#x22;: faker.lorem.sentences(),
+                &#x22;paragraph&#x22;: faker.lorem.paragraph()
+            },
+            {
+                &#x22;words&#x22;: faker.lorem.words(),
+                &#x22;sentence&#x22;: faker.lorem.sentence(),
+                &#x22;sentences&#x22;: faker.lorem.sentences(),
+                &#x22;paragraph&#x22;: faker.lorem.paragraph()
+            },
+            {
+                &#x22;words&#x22;: faker.lorem.words(),
+                &#x22;sentence&#x22;: faker.lorem.sentence(),
+                &#x22;sentences&#x22;: faker.lorem.sentences(),
+                &#x22;paragraph&#x22;: faker.lorem.paragraph()
+            }
+        ],
+        &#x22;accountHistory&#x22;: [faker.helpers.createTransaction(), faker.helpers.createTransaction(), faker.helpers.createTransaction
+()]
+    };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+### Browser
+
+&#x3c;script src = &#x22;faker.js&#x22; type = &#x22;text/javascript&#x22;&#x3e;&#x3c;/script&#x3e;
+&#x3c;script&#x3e;
+  var randomName = faker.name.findName(); // Caitlyn Kerluke
+  var randomEmail = faker.internet.email(); // Rusty@arne.info
+  var randomCard = faker.helpers.<span class="apidocCodeKeywordSpan">createCard</span>(); // random contact card containing many
+ properties
+&#x3c;/script&#x3e;
+
+### Node.js
+
+var faker = require(&#x27;faker&#x27;);
+
+var randomName = faker.name.findName(); // Rowan Nikolaus
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.helpers.createTransaction" id="apidoc.element.faker.helpers.createTransaction">
+        function <span class="apidocSignatureSpan">faker.helpers.</span>createTransaction
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">createTransaction = function (){
+  return {
+    &#x22;amount&#x22; : faker.finance.amount(),
+    &#x22;date&#x22; : new Date(2012, 1, 2),  //TODO: add a ranged date method
+    &#x22;business&#x22;: faker.company.companyName(),
+    &#x22;name&#x22;: [faker.finance.accountName(), faker.finance.mask()].join(&#x27; &#x27;),
+    &#x22;type&#x22; : self.randomize(faker.definitions.finance.transaction_type),
+    &#x22;account&#x22; : faker.finance.account()
+  };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+            {
+                &#x22;words&#x22;: faker.lorem.words(),
+                &#x22;sentence&#x22;: faker.lorem.sentence(),
+                &#x22;sentences&#x22;: faker.lorem.sentences(),
+                &#x22;paragraph&#x22;: faker.lorem.paragraph()
+            }
+        ],
+        &#x22;accountHistory&#x22;: [faker.helpers.<span class="apidocCodeKeywordSpan">createTransaction</span>(), faker.helpers
+.createTransaction(), faker.helpers.createTransaction()]
+    };
+};
+
+/**
+ * contextualCard
+ *
+ * @method faker.helpers.contextualCard
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.helpers.mustache" id="apidoc.element.faker.helpers.mustache">
+        function <span class="apidocSignatureSpan">faker.helpers.</span>mustache
+        <span class="apidocSignatureSpan">(str, data)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">mustache = function (str, data) {
+  if (typeof str === &#x27;undefined&#x27;) {
+    return &#x27;&#x27;;
+  }
+  for(var p in data) {
+    var re = new RegExp(&#x27;{{&#x27; + p + &#x27;}}&#x27;, &#x27;g&#x27;)
+    str = str.replace(re, data[p]);
+  }
+  return str;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+      &#x22;You can&#x27;t {{verb}} the {{noun}} without {{ingverb}} the {{adjective}} {{abbreviation}} {{noun}}!&#x22;,
+      &#x22;Use the {{adjective}} {{abbreviation}} {{noun}}, then you can {{verb}} the {{adjective}} {{noun}}!&#x22;,
+      &#x22;The {{abbreviation}} {{noun}} is down, {{verb}} the {{adjective}} {{noun}} so we can {{verb}} the {{abbreviation}} {{
+noun}}!&#x22;,
+      &#x22;{{ingverb}} the {{noun}} won&#x27;t do anything, we need to {{verb}} the {{adjective}} {{abbreviation}} {{noun}}!&#x22
+;,
+      &#x22;I&#x27;ll {{verb}} the {{adjective}} {{abbreviation}} {{noun}}, that should {{noun}} the {{abbreviation}} {{noun}}!&#
+x22;
+   ]);
+
+   return faker.helpers.<span class="apidocCodeKeywordSpan">mustache</span>(phrase, data);
+
+  };
+
+  return self;
+};
+
+module[&#x27;exports&#x27;] = Hacker;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.helpers.randomize" id="apidoc.element.faker.helpers.randomize">
+        function <span class="apidocSignatureSpan">faker.helpers.</span>randomize
+        <span class="apidocSignatureSpan">(array)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">randomize = function (array) {
+    array = array || [&#x22;a&#x22;, &#x22;b&#x22;, &#x22;c&#x22;];
+    return faker.random.arrayElement(array);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+/**
+ * accountName
+ *
+ * @method faker.finance.accountName
+ */
+self.accountName = function () {
+
+    return [Helpers.<span class="apidocCodeKeywordSpan">randomize</span>(faker.definitions.finance.account_type), &#x27;Account&#
+x27;].join(&#x27; &#x27;);
+};
+
+/**
+ * mask
+ *
+ * @method faker.finance.mask
+ * @param {number} length
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.helpers.replaceSymbolWithNumber" id="apidoc.element.faker.helpers.replaceSymbolWithNumber">
+        function <span class="apidocSignatureSpan">faker.helpers.</span>replaceSymbolWithNumber
+        <span class="apidocSignatureSpan">(string, symbol)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">replaceSymbolWithNumber = function (string, symbol) {
+    string = string || &#x22;&#x22;;
+    // default symbol is &#x27;#&#x27;
+    if (symbol === undefined) {
+        symbol = &#x27;#&#x27;;
+    }
+
+    var str = &#x27;&#x27;;
+    for (var i = 0; i &#x3c; string.length; i++) {
+        if (string.charAt(i) == symbol) {
+            str += faker.random.number(9);
+        } else {
+            str += string.charAt(i);
+        }
+    }
+    return str;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * @param {Boolean} useFullAddress
+ */
+this.streetAddress = function (useFullAddress) {
+    if (useFullAddress === undefined) { useFullAddress = false; }
+    var address = &#x22;&#x22;;
+    switch (faker.random.number(2)) {
+    case 0:
+        address = Helpers.<span class="apidocCodeKeywordSpan">replaceSymbolWithNumber</span>(&#x22;#####&#x22;) + &#x22; &#x22; +
+faker.address.streetName();
+        break;
+    case 1:
+        address = Helpers.replaceSymbolWithNumber(&#x22;####&#x22;) +  &#x22; &#x22; + faker.address.streetName();
+        break;
+    case 2:
+        address = Helpers.replaceSymbolWithNumber(&#x22;###&#x22;) + &#x22; &#x22; + faker.address.streetName();
+        break;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.helpers.replaceSymbols" id="apidoc.element.faker.helpers.replaceSymbols">
+        function <span class="apidocSignatureSpan">faker.helpers.</span>replaceSymbols
+        <span class="apidocSignatureSpan">(string)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">replaceSymbols = function (string) {
+    string = string || &#x22;&#x22;;
+    var alpha = [&#x27;A&#x27;,&#x27;B&#x27;,&#x27;C&#x27;,&#x27;D&#x27;,&#x27;E&#x27;,&#x27;F&#x27;,&#x27;G&#x27;,&#x27;H&#x27;,&#x27;I&#x27;,&#x27;J&#x27;,&#x27;K&#x27;,&#x27;L&#x27;,&#x27;M&#x27;,&#x27;N&#x27;,&#x27;O&#x27;,&#x27;P&#x27;,&#x27;Q&#x27;,&#x27;R&#x27;,&#x27;S&#x27;,&#x27;T&#x27;,&#x27;U&#x27;,&#x27;V&#x27;,&#x27;W&#x27;,&#x27;X&#x27;,&#x27;Y&#x27;,&#x27;Z&#x27;]
+    var str = &#x27;&#x27;;
+
+    for (var i = 0; i &#x3c; string.length; i++) {
+        if (string.charAt(i) == &#x22;#&#x22;) {
+            str += faker.random.number(9);
+        } else if (string.charAt(i) == &#x22;?&#x22;) {
+            str += faker.random.arrayElement(alpha);
+        } else {
+            str += string.charAt(i);
+        }
+    }
+    return str;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    var localeFormat = faker.definitions.address.postcode;
+    if (typeof localeFormat === &#x27;string&#x27;) {
+      format = localeFormat;
+    } else {
+      format = faker.random.arrayElement(localeFormat);
+    }
+  }
+  return Helpers.<span class="apidocCodeKeywordSpan">replaceSymbols</span>(format);
+}
+
+/**
+ * Generates a random localized city name. The format string can contain any
+ * method provided by faker wrapped in `{{}}`, e.g. `{{name.firstName}}` in
+ * order to build the city name.
+ *
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.helpers.shuffle" id="apidoc.element.faker.helpers.shuffle">
+        function <span class="apidocSignatureSpan">faker.helpers.</span>shuffle
+        <span class="apidocSignatureSpan">(o)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">shuffle = function (o) {
+    if (typeof o === &#x27;undefined&#x27; || o.length === 0) {
+      return [];
+    }
+    o = o || [&#x22;a&#x22;, &#x22;b&#x22;, &#x22;c&#x22;];
+    for (var j, x, i = o.length-1; i; j = faker.random.number(i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.helpers.slugify" id="apidoc.element.faker.helpers.slugify">
+        function <span class="apidocSignatureSpan">faker.helpers.</span>slugify
+        <span class="apidocSignatureSpan">(string)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">slugify = function (string) {
+    string = string || &#x22;&#x22;;
+    return string.replace(/ /g, &#x27;-&#x27;).replace(/[^\w\.\-]+/g, &#x27;&#x27;);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * @method faker.internet.email
+ * @param {string} firstName
+ * @param {string} lastName
+ * @param {string} provider
+ */
+self.email = function (firstName, lastName, provider) {
+    provider = provider || faker.random.arrayElement(faker.definitions.internet.free_email);
+    return  faker.helpers.<span class="apidocCodeKeywordSpan">slugify</span>(faker.internet.userName(firstName, lastName)) + &#x22
+;@&#x22; + provider;
+};
+
+self.email.schema = {
+  &#x22;description&#x22;: &#x22;Generates a valid email address based on optional input criteria&#x22;,
+  &#x22;sampleResults&#x22;: [&#x22;foo.bar@gmail.com&#x22;],
+  &#x22;properties&#x22;: {
+    &#x22;firstName&#x22;: {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.helpers.userCard" id="apidoc.element.faker.helpers.userCard">
+        function <span class="apidocSignatureSpan">faker.helpers.</span>userCard
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">userCard = function () {
+    return {
+        &#x22;name&#x22;: faker.name.findName(),
+        &#x22;username&#x22;: faker.internet.userName(),
+        &#x22;email&#x22;: faker.internet.email(),
+        &#x22;address&#x22;: {
+            &#x22;street&#x22;: faker.address.streetName(true),
+            &#x22;suite&#x22;: faker.address.secondaryAddress(),
+            &#x22;city&#x22;: faker.address.city(),
+            &#x22;zipcode&#x22;: faker.address.zipCode(),
+            &#x22;geo&#x22;: {
+                &#x22;lat&#x22;: faker.address.latitude(),
+                &#x22;lng&#x22;: faker.address.longitude()
+            }
+        },
+        &#x22;phone&#x22;: faker.phone.phoneNumber(),
+        &#x22;website&#x22;: faker.internet.domainName(),
+        &#x22;company&#x22;: {
+            &#x22;name&#x22;: faker.company.companyName(),
+            &#x22;catchPhrase&#x22;: faker.company.catchPhrase(),
+            &#x22;bs&#x22;: faker.company.bs()
+        }
+    };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.iban" id="apidoc.module.faker.iban">module faker.iban</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.iban.mod97" id="apidoc.element.faker.iban.mod97">
+        function <span class="apidocSignatureSpan">faker.iban.</span>mod97
+        <span class="apidocSignatureSpan">(digitStr)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">mod97 = function (digitStr) {
+    var m = 0;
+    for (var i = 0; i &#x3c; digitStr.length; i++) {
+        m = ((m * 10) + (digitStr[i] |0)) % 97;
+    }
+    return m;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+                    s += faker.random.number(9);
+                }
+            }
+            c--;
+        }
+        s = s.substring(0, count);
+    }
+    var checksum = 98 - ibanLib.<span class="apidocCodeKeywordSpan">mod97</span>(ibanLib.toDigitString(s + ibanFormat.country + &#
+x22;00&#x22;));
+    if (checksum &#x3c; 10) {
+        checksum = &#x22;0&#x22; + checksum;
+    }
+    var iban = ibanFormat.country + checksum + s;
+    return formatted ? iban.match(/.{1,4}/g).join(&#x22; &#x22;) : iban;
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.iban.toDigitString" id="apidoc.element.faker.iban.toDigitString">
+        function <span class="apidocSignatureSpan">faker.iban.</span>toDigitString
+        <span class="apidocSignatureSpan">(str)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toDigitString = function (str) {
+    return str.replace(/[A-Z]/gi, function(match) {
+        return match.toUpperCase().charCodeAt(0) - 55;
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+                    s += faker.random.number(9);
+                }
+            }
+            c--;
+        }
+        s = s.substring(0, count);
+    }
+    var checksum = 98 - ibanLib.mod97(ibanLib.<span class="apidocCodeKeywordSpan">toDigitString</span>(s + ibanFormat.country + &#
+x22;00&#x22;));
+    if (checksum &#x3c; 10) {
+        checksum = &#x22;0&#x22; + checksum;
+    }
+    var iban = ibanFormat.country + checksum + s;
+    return formatted ? iban.match(/.{1,4}/g).join(&#x22; &#x22;) : iban;
+};
+...</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.image" id="apidoc.module.faker.image">module faker.image</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.image" id="apidoc.element.faker.image.image">
+        function <span class="apidocSignatureSpan">faker.</span>image
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">image = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+/**
+ * locale
+ *
+ * @method faker.random.image
+ */
+this.image = function randomImage () {
+  return faker.image.<span class="apidocCodeKeywordSpan">image</span>();
+}
+
+/**
+ * locale
+ *
+ * @method faker.random.locale
+ */
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.abstract" id="apidoc.element.faker.image.abstract">
+        function <span class="apidocSignatureSpan">faker.image.</span>abstract
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">abstract = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.animals" id="apidoc.element.faker.image.animals">
+        function <span class="apidocSignatureSpan">faker.image.</span>animals
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">animals = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.avatar" id="apidoc.element.faker.image.avatar">
+        function <span class="apidocSignatureSpan">faker.image.</span>avatar
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">avatar = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ */
+self.contextualCard = function () {
+  var name = faker.name.firstName(),
+      userName = faker.internet.userName(name);
+  return {
+      &#x22;name&#x22;: name,
+      &#x22;username&#x22;: userName,
+      &#x22;avatar&#x22;: faker.internet.<span class="apidocCodeKeywordSpan">avatar</span>(),
+      &#x22;email&#x22;: faker.internet.email(userName),
+      &#x22;dob&#x22;: faker.date.past(50, new Date(&#x22;Sat Sep 20 1992 21:35:02 GMT+0200 (CEST)&#x22;)),
+      &#x22;phone&#x22;: faker.phone.phoneNumber(),
+      &#x22;address&#x22;: {
+          &#x22;street&#x22;: faker.address.streetName(true),
+          &#x22;suite&#x22;: faker.address.secondaryAddress(),
+          &#x22;city&#x22;: faker.address.city(),
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.business" id="apidoc.element.faker.image.business">
+        function <span class="apidocSignatureSpan">faker.image.</span>business
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">business = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.cats" id="apidoc.element.faker.image.cats">
+        function <span class="apidocSignatureSpan">faker.image.</span>cats
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">cats = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.city" id="apidoc.element.faker.image.city">
+        function <span class="apidocSignatureSpan">faker.image.</span>city
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">city = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+&#x22;username&#x22;: faker.internet.userName(),
+&#x22;email&#x22;: faker.internet.email(),
+&#x22;address&#x22;: {
+    &#x22;streetA&#x22;: faker.address.streetName(),
+    &#x22;streetB&#x22;: faker.address.streetAddress(),
+    &#x22;streetC&#x22;: faker.address.streetAddress(true),
+    &#x22;streetD&#x22;: faker.address.secondaryAddress(),
+    &#x22;city&#x22;: faker.address.<span class="apidocCodeKeywordSpan">city</span>(),
+    &#x22;state&#x22;: faker.address.state(),
+    &#x22;country&#x22;: faker.address.country(),
+    &#x22;zipcode&#x22;: faker.address.zipCode(),
+    &#x22;geo&#x22;: {
+        &#x22;lat&#x22;: faker.address.latitude(),
+        &#x22;lng&#x22;: faker.address.longitude()
+    }
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.dataUri" id="apidoc.element.faker.image.dataUri">
+        function <span class="apidocSignatureSpan">faker.image.</span>dataUri
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">dataUri = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.fashion" id="apidoc.element.faker.image.fashion">
+        function <span class="apidocSignatureSpan">faker.image.</span>fashion
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fashion = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.food" id="apidoc.element.faker.image.food">
+        function <span class="apidocSignatureSpan">faker.image.</span>food
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">food = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.imageUrl" id="apidoc.element.faker.image.imageUrl">
+        function <span class="apidocSignatureSpan">faker.image.</span>imageUrl
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">imageUrl = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *
+ * @param {number} width
+ * @param {number} height
+ * @param {boolean} randomize
+ * @method faker.image.abstract
+ */
+self.abstract = function (width, height, randomize) {
+  return faker.image.<span class="apidocCodeKeywordSpan">imageUrl</span>(width, height, &#x27;abstract&#x27;, randomize);
+};
+/**
+ * animals
+ *
+ * @param {number} width
+ * @param {number} height
+ * @param {boolean} randomize
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.nature" id="apidoc.element.faker.image.nature">
+        function <span class="apidocSignatureSpan">faker.image.</span>nature
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">nature = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.nightlife" id="apidoc.element.faker.image.nightlife">
+        function <span class="apidocSignatureSpan">faker.image.</span>nightlife
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">nightlife = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.people" id="apidoc.element.faker.image.people">
+        function <span class="apidocSignatureSpan">faker.image.</span>people
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">people = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.sports" id="apidoc.element.faker.image.sports">
+        function <span class="apidocSignatureSpan">faker.image.</span>sports
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">sports = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.technics" id="apidoc.element.faker.image.technics">
+        function <span class="apidocSignatureSpan">faker.image.</span>technics
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">technics = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.image.transport" id="apidoc.element.faker.image.transport">
+        function <span class="apidocSignatureSpan">faker.image.</span>transport
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">transport = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.index" id="apidoc.module.faker.index">module faker.index</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.index.index" id="apidoc.element.faker.index.index">
+        function <span class="apidocSignatureSpan">faker.</span>index
+        <span class="apidocSignatureSpan">(opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Faker(opts) {
+
+  var self = this;
+
+  opts = opts || {};
+
+  // assign options
+  var locales = self.locales || opts.locales || {};
+  var locale = self.locale || opts.locale || &#x22;en&#x22;;
+  var localeFallback = self.localeFallback || opts.localeFallback || &#x22;en&#x22;;
+
+  self.locales = locales;
+  self.locale = locale;
+  self.localeFallback = localeFallback;
+
+  self.definitions = {};
+
+  function bindAll(obj) {
+      Object.keys(obj).forEach(function(meth) {
+          if (typeof obj[meth] === &#x27;function&#x27;) {
+              obj[meth] = obj[meth].bind(obj);
+          }
+      });
+      return obj;
+  }
+
+  var Fake = require(&#x27;./fake&#x27;);
+  self.fake = new Fake(self).fake;
+
+  var Random = require(&#x27;./random&#x27;);
+  self.random = bindAll(new Random(self));
+
+  var Helpers = require(&#x27;./helpers&#x27;);
+  self.helpers = new Helpers(self);
+
+  var Name = require(&#x27;./name&#x27;);
+  self.name = bindAll(new Name(self));
+
+  var Address = require(&#x27;./address&#x27;);
+  self.address = bindAll(new Address(self));
+
+  var Company = require(&#x27;./company&#x27;);
+  self.company = bindAll(new Company(self));
+
+  var Finance = require(&#x27;./finance&#x27;);
+  self.finance = bindAll(new Finance(self));
+
+  var Image = require(&#x27;./image&#x27;);
+  self.image = bindAll(new Image(self));
+
+  var Lorem = require(&#x27;./lorem&#x27;);
+  self.lorem = bindAll(new Lorem(self));
+
+  var Hacker = require(&#x27;./hacker&#x27;);
+  self.hacker = bindAll(new Hacker(self));
+
+  var Internet = require(&#x27;./internet&#x27;);
+  self.internet = bindAll(new Internet(self));
+
+  var Database = require(&#x27;./database&#x27;);
+  self.database = bindAll(new Database(self));
+
+  var Phone = require(&#x27;./phone_number&#x27;);
+  self.phone = bindAll(new Phone(self));
+
+  var _Date = require(&#x27;./date&#x27;);
+  self.date = bindAll(new _Date(self));
+
+  var Commerce = require(&#x27;./commerce&#x27;);
+  self.commerce = bindAll(new Commerce(self));
+
+  var System = require(&#x27;./system&#x27;);
+  self.system = bindAll(new System(self));
+
+  var _definitions = {
+    &#x22;name&#x22;: [&#x22;first_name&#x22;, &#x22;last_name&#x22;, &#x22;prefix&#x22;, &#x22;suffix&#x22;, &#x22;title&#x22;, &#x22;male_first_name&#x22;, &#x22;female_first_name&#x22;, &#x22;male_middle_name&#x22;, &#x22;
+female_middle_name&#x22;, &#x22;male_last_name&#x22;, &#x22;female_last_name&#x22;],
+    &#x22;address&#x22;: [&#x22;city_prefix&#x22;, &#x22;city_suffix&#x22;, &#x22;street_suffix&#x22;, &#x22;county&#x22;, &#x22;country&#x22;, &#x22;country_code&#x22;, &#x22;state&#x22;, &#x22;state_abbr&#x22;, &#x22;street_prefix
+&#x22;, &#x22;postcode&#x22;],
+    &#x22;company&#x22;: [&#x22;adjective&#x22;, &#x22;noun&#x22;, &#x22;descriptor&#x22;, &#x22;bs_adjective&#x22;, &#x22;bs_noun&#x22;, &#x22;bs_verb&#x22;, &#x22;suffix&#x22;],
+    &#x22;lorem&#x22;: [&#x22;words&#x22;],
+    &#x22;hacker&#x22;: [&#x22;abbreviation&#x22;, &#x22;adjective&#x22;, &#x22;noun&#x22;, &#x22;verb&#x22;, &#x22;ingverb&#x22;],
+    &#x22;phone_number&#x22;: [&#x22;formats&#x22;],
+    &#x22;finance&#x22;: [&#x22;account_type&#x22;, &#x22;transaction_type&#x22;, &#x22;currency&#x22;, &#x22;iban&#x22;],
+    &#x22;internet&#x22;: [&#x22;avatar_uri&#x22;, &#x22;domain_suffix&#x22;, &#x22;free_email&#x22;, &#x22;example_email&#x22;, &#x22;password&#x22;],
+    &#x22;commerce&#x22;: [&#x22;color&#x22;, &#x22;department&#x22;, &#x22;product_name&#x22;, &#x22;price&#x22;, &#x22;categories&#x22;],
+    &#x22;database&#x22;: [&#x22;collation&#x22;, &#x22;column&#x22;, &#x22;engine&#x22;, &#x22;type&#x22;],
+    &#x22;system&#x22;: [&#x22;mimeTypes&#x22;],
+    &#x22;date&#x22;: [&#x22;month&#x22;, &#x22;weekday&#x22;],
+    &#x22;title&#x22;: &#x22;&#x22;,
+    &#x22;separator&#x22;: &#x22;&#x22;
+  };
+
+  // Create a Getter for all definitions.foo.bar properties
+  Object.keys(_definitions).forEach(function(d){
+    if (typeof self.definitions[d] === &#x22;undefined&#x22;) {
+      self.definitions[d] = {};
+    }
+
+    if (typeof _definitions[d] === &#x22;string&#x22;) {
+        self.definitions[d] = _definitions[d];
+      return;
+    }
+
+    _definitions[d].forEach(function(p){
+      Object.defineProperty(self.definitions[d], p, {
+        get: function () {
+          if (typeof self.locales[self.locale][d] === &#x22;undefined&#x22; || typeof self.locales[self.locale][d][p] === &#x22;undefined&#x22;) {
+            // certain localization sets contain less data then others.
+            // in the case of a missing definition, use the default localeFallback to substitute the missing set data
+            // throw new Error(&#x27;unknown property &#x27; + d + p)
+            return self.locales[localeFallback][d][p];
+          } else {
+            // return localized data
+            return self.locales[self.locale][d][p];
+          }
+        }
+      });
+    });
+  });
+
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.index.prototype" id="apidoc.module.faker.index.prototype">module faker.index.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.index.prototype.seed" id="apidoc.element.faker.index.prototype.seed">
+        function <span class="apidocSignatureSpan">faker.index.prototype.</span>seed
+        <span class="apidocSignatureSpan">(value)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">seed = function (value) {
+  var Random = require(&#x27;./random&#x27;);
+  this.seedValue = value;
+  this.random = new Random(this, this.seedValue);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+```
+
+## Setting a randomness seed
+
+If you want consistent results, you can set your own seed:
+
+```js
+faker.<span class="apidocCodeKeywordSpan">seed</span>(123);
+
+var firstRandom = faker.random.number();
+
+// Setting the seed again resets the sequence.
+faker.seed(123);
+
+var secondRandom = faker.random.number();
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.internet" id="apidoc.module.faker.internet">module faker.internet</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.internet.avatar" id="apidoc.element.faker.internet.avatar">
+        function <span class="apidocSignatureSpan">faker.internet.</span>avatar
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">avatar = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ */
+self.contextualCard = function () {
+  var name = faker.name.firstName(),
+      userName = faker.internet.userName(name);
+  return {
+      &#x22;name&#x22;: name,
+      &#x22;username&#x22;: userName,
+      &#x22;avatar&#x22;: faker.internet.<span class="apidocCodeKeywordSpan">avatar</span>(),
+      &#x22;email&#x22;: faker.internet.email(userName),
+      &#x22;dob&#x22;: faker.date.past(50, new Date(&#x22;Sat Sep 20 1992 21:35:02 GMT+0200 (CEST)&#x22;)),
+      &#x22;phone&#x22;: faker.phone.phoneNumber(),
+      &#x22;address&#x22;: {
+          &#x22;street&#x22;: faker.address.streetName(true),
+          &#x22;suite&#x22;: faker.address.secondaryAddress(),
+          &#x22;city&#x22;: faker.address.city(),
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.internet.color" id="apidoc.element.faker.internet.color">
+        function <span class="apidocSignatureSpan">faker.internet.</span>color
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">color = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.internet.domainName" id="apidoc.element.faker.internet.domainName">
+        function <span class="apidocSignatureSpan">faker.internet.</span>domainName
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">domainName = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    &#x22;zipcode&#x22;: faker.address.zipCode(),
+    &#x22;geo&#x22;: {
+        &#x22;lat&#x22;: faker.address.latitude(),
+        &#x22;lng&#x22;: faker.address.longitude()
+    }
+},
+&#x22;phone&#x22;: faker.phone.phoneNumber(),
+&#x22;website&#x22;: faker.internet.<span class="apidocCodeKeywordSpan">domainName</span>(),
+&#x22;company&#x22;: {
+    &#x22;name&#x22;: faker.company.companyName(),
+    &#x22;catchPhrase&#x22;: faker.company.catchPhrase(),
+    &#x22;bs&#x22;: faker.company.bs()
+},
+&#x22;posts&#x22;: [
+    {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.internet.domainSuffix" id="apidoc.element.faker.internet.domainSuffix">
+        function <span class="apidocSignatureSpan">faker.internet.</span>domainSuffix
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">domainSuffix = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+/**
+ * domainName
+ *
+ * @method faker.internet.domainName
+ */
+self.domainName = function () {
+    return faker.internet.domainWord() + &#x22;.&#x22; + faker.internet.<span class="apidocCodeKeywordSpan">domainSuffix</span>();
+};
+
+self.domainName.schema = {
+  &#x22;description&#x22;: &#x22;Generates a random domain name.&#x22;,
+  &#x22;sampleResults&#x22;: [&#x22;marvin.org&#x22;]
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.internet.domainWord" id="apidoc.element.faker.internet.domainWord">
+        function <span class="apidocSignatureSpan">faker.internet.</span>domainWord
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">domainWord = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+/**
+ * domainName
+ *
+ * @method faker.internet.domainName
+ */
+self.domainName = function () {
+    return faker.internet.<span class="apidocCodeKeywordSpan">domainWord</span>() + &#x22;.&#x22; + faker.internet.domainSuffix();
+};
+
+self.domainName.schema = {
+  &#x22;description&#x22;: &#x22;Generates a random domain name.&#x22;,
+  &#x22;sampleResults&#x22;: [&#x22;marvin.org&#x22;]
+};
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.internet.email" id="apidoc.element.faker.internet.email">
+        function <span class="apidocSignatureSpan">faker.internet.</span>email
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">email = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+## Usage
+
+### Browser
+
+&#x3c;script src = &#x22;faker.js&#x22; type = &#x22;text/javascript&#x22;&#x3e;&#x3c;/script&#x3e;
+&#x3c;script&#x3e;
+  var randomName = faker.name.findName(); // Caitlyn Kerluke
+  var randomEmail = faker.internet.<span class="apidocCodeKeywordSpan">email</span>(); // Rusty@arne.info
+  var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+&#x3c;/script&#x3e;
+
+### Node.js
+
+var faker = require(&#x27;faker&#x27;);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.internet.exampleEmail" id="apidoc.element.faker.internet.exampleEmail">
+        function <span class="apidocSignatureSpan">faker.internet.</span>exampleEmail
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">exampleEmail = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.internet.ip" id="apidoc.element.faker.internet.ip">
+        function <span class="apidocSignatureSpan">faker.internet.</span>ip
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ip = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.internet.ipv6" id="apidoc.element.faker.internet.ipv6">
+        function <span class="apidocSignatureSpan">faker.internet.</span>ipv6
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">ipv6 = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.internet.mac" id="apidoc.element.faker.internet.mac">
+        function <span class="apidocSignatureSpan">faker.internet.</span>mac
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">mac = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.internet.password" id="apidoc.element.faker.internet.password">
+        function <span class="apidocSignatureSpan">faker.internet.</span>password
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">password = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.internet.protocol" id="apidoc.element.faker.internet.protocol">
+        function <span class="apidocSignatureSpan">faker.internet.</span>protocol
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">protocol = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+/**
+ * url
+ *
+ * @method faker.internet.url
+ */
+self.url = function () {
+    return faker.internet.<span class="apidocCodeKeywordSpan">protocol</span>() + &#x27;://&#x27; + faker.internet.domainName();
+};
+
+self.url.schema = {
+  &#x22;description&#x22;: &#x22;Generates a random URL. The URL could be secure or insecure.&#x22;,
+  &#x22;sampleResults&#x22;: [
+    &#x22;http://rashawn.name&#x22;,
+    &#x22;https://rashawn.name&#x22;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.internet.url" id="apidoc.element.faker.internet.url">
+        function <span class="apidocSignatureSpan">faker.internet.</span>url
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">url = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.internet.userAgent" id="apidoc.element.faker.internet.userAgent">
+        function <span class="apidocSignatureSpan">faker.internet.</span>userAgent
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">userAgent = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.internet.userName" id="apidoc.element.faker.internet.userName">
+        function <span class="apidocSignatureSpan">faker.internet.</span>userName
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">userName = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * createCard
+ *
+ * @method faker.helpers.createCard
+ */
+self.createCard = function () {
+    return {
+        &#x22;name&#x22;: faker.name.findName(),
+        &#x22;username&#x22;: faker.internet.<span class="apidocCodeKeywordSpan">userName</span>(),
+        &#x22;email&#x22;: faker.internet.email(),
+        &#x22;address&#x22;: {
+            &#x22;streetA&#x22;: faker.address.streetName(),
+            &#x22;streetB&#x22;: faker.address.streetAddress(),
+            &#x22;streetC&#x22;: faker.address.streetAddress(true),
+            &#x22;streetD&#x22;: faker.address.secondaryAddress(),
+            &#x22;city&#x22;: faker.address.city(),
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.lorem" id="apidoc.module.faker.lorem">module faker.lorem</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.lorem.lines" id="apidoc.element.faker.lorem.lines">
+        function <span class="apidocSignatureSpan">faker.lorem.</span>lines
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">lines = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.lorem.paragraph" id="apidoc.element.faker.lorem.paragraph">
+        function <span class="apidocSignatureSpan">faker.lorem.</span>paragraph
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">paragraph = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    &#x22;bs&#x22;: faker.company.bs()
+},
+&#x22;posts&#x22;: [
+    {
+        &#x22;words&#x22;: faker.lorem.words(),
+        &#x22;sentence&#x22;: faker.lorem.sentence(),
+        &#x22;sentences&#x22;: faker.lorem.sentences(),
+        &#x22;paragraph&#x22;: faker.lorem.<span class="apidocCodeKeywordSpan">paragraph</span>()
+    },
+    {
+        &#x22;words&#x22;: faker.lorem.words(),
+        &#x22;sentence&#x22;: faker.lorem.sentence(),
+        &#x22;sentences&#x22;: faker.lorem.sentences(),
+        &#x22;paragraph&#x22;: faker.lorem.paragraph()
+    },
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.lorem.paragraphs" id="apidoc.element.faker.lorem.paragraphs">
+        function <span class="apidocSignatureSpan">faker.lorem.</span>paragraphs
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">paragraphs = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.lorem.sentence" id="apidoc.element.faker.lorem.sentence">
+        function <span class="apidocSignatureSpan">faker.lorem.</span>sentence
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">sentence = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    &#x22;name&#x22;: faker.company.companyName(),
+    &#x22;catchPhrase&#x22;: faker.company.catchPhrase(),
+    &#x22;bs&#x22;: faker.company.bs()
+},
+&#x22;posts&#x22;: [
+    {
+        &#x22;words&#x22;: faker.lorem.words(),
+        &#x22;sentence&#x22;: faker.lorem.<span class="apidocCodeKeywordSpan">sentence</span>(),
+        &#x22;sentences&#x22;: faker.lorem.sentences(),
+        &#x22;paragraph&#x22;: faker.lorem.paragraph()
+    },
+    {
+        &#x22;words&#x22;: faker.lorem.words(),
+        &#x22;sentence&#x22;: faker.lorem.sentence(),
+        &#x22;sentences&#x22;: faker.lorem.sentences(),
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.lorem.sentences" id="apidoc.element.faker.lorem.sentences">
+        function <span class="apidocSignatureSpan">faker.lorem.</span>sentences
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">sentences = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    &#x22;catchPhrase&#x22;: faker.company.catchPhrase(),
+    &#x22;bs&#x22;: faker.company.bs()
+},
+&#x22;posts&#x22;: [
+    {
+        &#x22;words&#x22;: faker.lorem.words(),
+        &#x22;sentence&#x22;: faker.lorem.sentence(),
+        &#x22;sentences&#x22;: faker.lorem.<span class="apidocCodeKeywordSpan">sentences</span>(),
+        &#x22;paragraph&#x22;: faker.lorem.paragraph()
+    },
+    {
+        &#x22;words&#x22;: faker.lorem.words(),
+        &#x22;sentence&#x22;: faker.lorem.sentence(),
+        &#x22;sentences&#x22;: faker.lorem.sentences(),
+        &#x22;paragraph&#x22;: faker.lorem.paragraph()
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.lorem.slug" id="apidoc.element.faker.lorem.slug">
+        function <span class="apidocSignatureSpan">faker.lorem.</span>slug
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">slug = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.lorem.text" id="apidoc.element.faker.lorem.text">
+        function <span class="apidocSignatureSpan">faker.lorem.</span>text
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">text = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.lorem.word" id="apidoc.element.faker.lorem.word">
+        function <span class="apidocSignatureSpan">faker.lorem.</span>word
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">word = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * @method faker.lorem.words
+ * @param {number} num number of words, defaults to 3
+ */
+self.words = function (num) {
+    if (typeof num == &#x27;undefined&#x27;) { num = 3; }
+    var words = [];
+    for (var i = 0; i &#x3c; num; i++) {
+      words.push(faker.lorem.<span class="apidocCodeKeywordSpan">word</span>());
+    }
+    return words.join(&#x27; &#x27;);
+};
+
+/**
+ * sentence
+ *
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.lorem.words" id="apidoc.element.faker.lorem.words">
+        function <span class="apidocSignatureSpan">faker.lorem.</span>words
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">words = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+&#x22;company&#x22;: {
+    &#x22;name&#x22;: faker.company.companyName(),
+    &#x22;catchPhrase&#x22;: faker.company.catchPhrase(),
+    &#x22;bs&#x22;: faker.company.bs()
+},
+&#x22;posts&#x22;: [
+    {
+        &#x22;words&#x22;: faker.lorem.<span class="apidocCodeKeywordSpan">words</span>(),
+        &#x22;sentence&#x22;: faker.lorem.sentence(),
+        &#x22;sentences&#x22;: faker.lorem.sentences(),
+        &#x22;paragraph&#x22;: faker.lorem.paragraph()
+    },
+    {
+        &#x22;words&#x22;: faker.lorem.words(),
+        &#x22;sentence&#x22;: faker.lorem.sentence(),
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.name" id="apidoc.module.faker.name">module faker.name</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.name.findName" id="apidoc.element.faker.name.findName">
+        function <span class="apidocSignatureSpan">faker.name.</span>findName
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">findName = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+## Usage
+
+### Browser
+
+&#x3c;script src = &#x22;faker.js&#x22; type = &#x22;text/javascript&#x22;&#x3e;&#x3c;/script&#x3e;
+&#x3c;script&#x3e;
+  var randomName = faker.name.<span class="apidocCodeKeywordSpan">findName</span>(); // Caitlyn Kerluke
+  var randomEmail = faker.internet.email(); // Rusty@arne.info
+  var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+&#x3c;/script&#x3e;
+
+### Node.js
+
+var faker = require(&#x27;faker&#x27;);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.name.firstName" id="apidoc.element.faker.name.firstName">
+        function <span class="apidocSignatureSpan">faker.name.</span>firstName
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">firstName = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+**Example:**
+
+``` js
+console.log(faker.fake(&#x22;{{name.lastName}}, {{name.firstName}} {{name.suffix}}&#x22;));
+// outputs: &#x22;Marks, Dean Sr.&#x22;
+```
+
+This will interpolate the format string with the value of methods `name.lastName()`, `name.<span class="apidocCodeKeywordSpan">firstName
+</span>()`, and `name.suffix()`
+
+### JSDoc API Browser
+
+[http://marak.github.io/faker.js/](http://marak.github.io/faker.js/)
+
+### API Methods
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.name.jobArea" id="apidoc.element.faker.name.jobArea">
+        function <span class="apidocSignatureSpan">faker.name.</span>jobArea
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">jobArea = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * jobTitle
+ *
+ * @method jobTitle
+ * @memberof faker.name
+ */
+this.jobTitle = function () {
+  return  faker.name.jobDescriptor() + &#x22; &#x22; +
+    faker.name.<span class="apidocCodeKeywordSpan">jobArea</span>() + &#x22; &#x22; +
+    faker.name.jobType();
+};
+
+/**
+ * prefix
+ *
+ * @method prefix
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.name.jobDescriptor" id="apidoc.element.faker.name.jobDescriptor">
+        function <span class="apidocSignatureSpan">faker.name.</span>jobDescriptor
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">jobDescriptor = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+/**
+ * jobTitle
+ *
+ * @method jobTitle
+ * @memberof faker.name
+ */
+this.jobTitle = function () {
+  return  faker.name.<span class="apidocCodeKeywordSpan">jobDescriptor</span>() + &#x22; &#x22; +
+    faker.name.jobArea() + &#x22; &#x22; +
+    faker.name.jobType();
+};
+
+/**
+ * prefix
+ *
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.name.jobTitle" id="apidoc.element.faker.name.jobTitle">
+        function <span class="apidocSignatureSpan">faker.name.</span>jobTitle
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">jobTitle = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.name.jobType" id="apidoc.element.faker.name.jobType">
+        function <span class="apidocSignatureSpan">faker.name.</span>jobType
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">jobType = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ *
+ * @method jobTitle
+ * @memberof faker.name
+ */
+this.jobTitle = function () {
+  return  faker.name.jobDescriptor() + &#x22; &#x22; +
+    faker.name.jobArea() + &#x22; &#x22; +
+    faker.name.<span class="apidocCodeKeywordSpan">jobType</span>();
+};
+
+/**
+ * prefix
+ *
+ * @method prefix
+ * @param {mixed} gender
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.name.lastName" id="apidoc.element.faker.name.lastName">
+        function <span class="apidocSignatureSpan">faker.name.</span>lastName
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">lastName = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+**Example:**
+
+``` js
+console.log(faker.fake(&#x22;{{name.lastName}}, {{name.firstName}} {{name.suffix}}&#x22;));
+// outputs: &#x22;Marks, Dean Sr.&#x22;
+```
+
+This will interpolate the format string with the value of methods `name.<span class="apidocCodeKeywordSpan">lastName</span>()`, `
+name.firstName()`, and `name.suffix()`
+
+### JSDoc API Browser
+
+[http://marak.github.io/faker.js/](http://marak.github.io/faker.js/)
+
+### API Methods
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.name.prefix" id="apidoc.element.faker.name.prefix">
+        function <span class="apidocSignatureSpan">faker.name.</span>prefix
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">prefix = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+if (typeof gender !== &#x27;number&#x27;) {
+  gender = faker.random.number(1);
+}
+firstName = firstName || faker.name.firstName(gender);
+lastName = lastName || faker.name.lastName(gender);
+switch (r) {
+case 0:
+    prefix = faker.name.<span class="apidocCodeKeywordSpan">prefix</span>(gender);
+    if (prefix) {
+        return prefix + &#x22; &#x22; + firstName + &#x22; &#x22; + lastName;
+    }
+case 1:
+    suffix = faker.name.suffix(gender);
+    if (suffix) {
+        return firstName + &#x22; &#x22; + lastName + &#x22; &#x22; + suffix;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.name.suffix" id="apidoc.element.faker.name.suffix">
+        function <span class="apidocSignatureSpan">faker.name.</span>suffix
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">suffix = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+**Example:**
+
+``` js
+console.log(faker.fake(&#x22;{{name.lastName}}, {{name.firstName}} {{name.suffix}}&#x22;));
+// outputs: &#x22;Marks, Dean Sr.&#x22;
+```
+
+This will interpolate the format string with the value of methods `name.lastName()`, `name.firstName()`, and `name.<span class="
+apidocCodeKeywordSpan">suffix</span>()`
+
+### JSDoc API Browser
+
+[http://marak.github.io/faker.js/](http://marak.github.io/faker.js/)
+
+### API Methods
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.name.title" id="apidoc.element.faker.name.title">
+        function <span class="apidocSignatureSpan">faker.name.</span>title
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">title = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.phone" id="apidoc.module.faker.phone">module faker.phone</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.phone.phoneFormats" id="apidoc.element.faker.phone.phoneFormats">
+        function <span class="apidocSignatureSpan">faker.phone.</span>phoneFormats
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">phoneFormats = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+/**
+ * phoneNumber
+ *
+ * @method faker.phone.phoneNumber
+ * @param {string} format
+ */
+self.phoneNumber = function (format) {
+    format = format || faker.phone.<span class="apidocCodeKeywordSpan">phoneFormats</span>();
+    return faker.helpers.replaceSymbolWithNumber(format);
+};
+
+// FIXME: this is strange passing in an array index.
+/**
+ * phoneNumberFormat
+ *
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.phone.phoneNumber" id="apidoc.element.faker.phone.phoneNumber">
+        function <span class="apidocSignatureSpan">faker.phone.</span>phoneNumber
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">phoneNumber = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    &#x22;country&#x22;: faker.address.country(),
+    &#x22;zipcode&#x22;: faker.address.zipCode(),
+    &#x22;geo&#x22;: {
+        &#x22;lat&#x22;: faker.address.latitude(),
+        &#x22;lng&#x22;: faker.address.longitude()
+    }
+},
+&#x22;phone&#x22;: faker.phone.<span class="apidocCodeKeywordSpan">phoneNumber</span>(),
+&#x22;website&#x22;: faker.internet.domainName(),
+&#x22;company&#x22;: {
+    &#x22;name&#x22;: faker.company.companyName(),
+    &#x22;catchPhrase&#x22;: faker.company.catchPhrase(),
+    &#x22;bs&#x22;: faker.company.bs()
+},
+&#x22;posts&#x22;: [
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.phone.phoneNumberFormat" id="apidoc.element.faker.phone.phoneNumberFormat">
+        function <span class="apidocSignatureSpan">faker.phone.</span>phoneNumberFormat
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">phoneNumberFormat = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.random" id="apidoc.module.faker.random">module faker.random</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.random.alphaNumeric" id="apidoc.element.faker.random.alphaNumeric">
+        function <span class="apidocSignatureSpan">faker.random.</span>alphaNumeric
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">alphaNumeric = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ */
+self.bitcoinAddress = function () {
+  var addressLength = faker.random.number({ min: 27, max: 34 });
+
+  var address = faker.random.arrayElement([&#x27;1&#x27;, &#x27;3&#x27;]);
+
+  for (var i = 0; i &#x3c; addressLength - 1; i++)
+    address += faker.random.<span class="apidocCodeKeywordSpan">alphaNumeric</span>().toUpperCase();
+
+  return address;
+};
+
+/**
+ * iban
+ *
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.random.arrayElement" id="apidoc.element.faker.random.arrayElement">
+        function <span class="apidocSignatureSpan">faker.random.</span>arrayElement
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">arrayElement = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+this.zipCode = function(format) {
+  // if zip format is not specified, use the zip format defined for the locale
+  if (typeof format === &#x27;undefined&#x27;) {
+    var localeFormat = faker.definitions.address.postcode;
+    if (typeof localeFormat === &#x27;string&#x27;) {
+      format = localeFormat;
+    } else {
+      format = faker.random.<span class="apidocCodeKeywordSpan">arrayElement</span>(localeFormat);
+    }
+  }
+  return Helpers.replaceSymbols(format);
+}
+
+/**
+ * Generates a random localized city name. The format string can contain any
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.random.boolean" id="apidoc.element.faker.random.boolean">
+        function <span class="apidocSignatureSpan">faker.random.</span>boolean
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">boolean = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    if (faker.random.number(100) &#x3c; 80) {
+        s += faker.random.number(9);
+    } else {
+        s += faker.random.arrayElement(ibanLib.alpha);
+    }
+} else {
+    if (c &#x3e;= 3 &#x26;&#x26; faker.random.number(100) &#x3c; 30) {
+        if (faker.random.<span class="apidocCodeKeywordSpan">boolean</span>()) {
+            s += faker.random.arrayElement(ibanLib.pattern100);
+            c -= 2;
+        } else {
+            s += faker.random.arrayElement(ibanLib.pattern10);
+            c--;
+        }
+    } else {
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.random.image" id="apidoc.element.faker.random.image">
+        function <span class="apidocSignatureSpan">faker.random.</span>image
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">image = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+/**
+ * locale
+ *
+ * @method faker.random.image
+ */
+this.image = function randomImage () {
+  return faker.image.<span class="apidocCodeKeywordSpan">image</span>();
+}
+
+/**
+ * locale
+ *
+ * @method faker.random.locale
+ */
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.random.locale" id="apidoc.element.faker.random.locale">
+        function <span class="apidocSignatureSpan">faker.random.</span>locale
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">locale = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.random.number" id="apidoc.element.faker.random.number">
+        function <span class="apidocSignatureSpan">faker.random.</span>number
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">number = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+## Setting a randomness seed
+
+If you want consistent results, you can set your own seed:
+
+```js
+faker.seed(123);
+
+var firstRandom = faker.random.<span class="apidocCodeKeywordSpan">number</span>();
+
+// Setting the seed again resets the sequence.
+faker.seed(123);
+
+var secondRandom = faker.random.number();
+
+console.log(firstRandom === secondRandom);
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.random.objectElement" id="apidoc.element.faker.random.objectElement">
+        function <span class="apidocSignatureSpan">faker.random.</span>objectElement
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">objectElement = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+/**
+ * currencyCode
+ *
+ * @method faker.finance.currencyCode
+ */
+self.currencyCode = function () {
+    return faker.random.<span class="apidocCodeKeywordSpan">objectElement</span>(faker.definitions.finance.currency)[&#x27;code&#
+x27;];
+};
+
+/**
+ * currencyName
+ *
+ * @method faker.finance.currencyName
+ */
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.random.uuid" id="apidoc.element.faker.random.uuid">
+        function <span class="apidocSignatureSpan">faker.random.</span>uuid
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">uuid = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.random.word" id="apidoc.element.faker.random.word">
+        function <span class="apidocSignatureSpan">faker.random.</span>word
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">word = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * @method faker.lorem.words
+ * @param {number} num number of words, defaults to 3
+ */
+self.words = function (num) {
+    if (typeof num == &#x27;undefined&#x27;) { num = 3; }
+    var words = [];
+    for (var i = 0; i &#x3c; num; i++) {
+      words.push(faker.lorem.<span class="apidocCodeKeywordSpan">word</span>());
+    }
+    return words.join(&#x27; &#x27;);
+};
+
+/**
+ * sentence
+ *
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.random.words" id="apidoc.element.faker.random.words">
+        function <span class="apidocSignatureSpan">faker.random.</span>words
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">words = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+&#x22;company&#x22;: {
+    &#x22;name&#x22;: faker.company.companyName(),
+    &#x22;catchPhrase&#x22;: faker.company.catchPhrase(),
+    &#x22;bs&#x22;: faker.company.bs()
+},
+&#x22;posts&#x22;: [
+    {
+        &#x22;words&#x22;: faker.lorem.<span class="apidocCodeKeywordSpan">words</span>(),
+        &#x22;sentence&#x22;: faker.lorem.sentence(),
+        &#x22;sentences&#x22;: faker.lorem.sentences(),
+        &#x22;paragraph&#x22;: faker.lorem.paragraph()
+    },
+    {
+        &#x22;words&#x22;: faker.lorem.words(),
+        &#x22;sentence&#x22;: faker.lorem.sentence(),
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.faker.system" id="apidoc.module.faker.system">module faker.system</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.faker.system.commonFileExt" id="apidoc.element.faker.system.commonFileExt">
+        function <span class="apidocSignatureSpan">faker.system.</span>commonFileExt
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">commonFileExt = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * commonFileName
+ *
+ * @method faker.system.commonFileName
+ * @param {string} ext
+ * @param {string} type
+ */
+this.commonFileName = function (ext, type) {
+  var str = faker.random.words() + &#x22;.&#x22; + (ext || faker.system.<span class="apidocCodeKeywordSpan">commonFileExt</span>());
+  str = str.replace(/ /g, &#x27;_&#x27;);
+  str = str.replace(/\,/g, &#x27;_&#x27;);
+  str = str.replace(/\-/g, &#x27;_&#x27;);
+  str = str.replace(/\\/g, &#x27;_&#x27;);
+  str = str.replace(/\//g, &#x27;_&#x27;);
+  str = str.toLowerCase();
+  return str;
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.system.commonFileName" id="apidoc.element.faker.system.commonFileName">
+        function <span class="apidocSignatureSpan">faker.system.</span>commonFileName
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">commonFileName = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.system.commonFileType" id="apidoc.element.faker.system.commonFileType">
+        function <span class="apidocSignatureSpan">faker.system.</span>commonFileType
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">commonFileType = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.system.directoryPath" id="apidoc.element.faker.system.directoryPath">
+        function <span class="apidocSignatureSpan">faker.system.</span>directoryPath
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">directoryPath = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.system.fileExt" id="apidoc.element.faker.system.fileExt">
+        function <span class="apidocSignatureSpan">faker.system.</span>fileExt
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fileExt = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+    &#x27;image/png&#x27;,
+    &#x27;image/jpeg&#x27;,
+    &#x27;image/gif&#x27;,
+    &#x27;video/mp4&#x27;,
+    &#x27;video/mpeg&#x27;,
+    &#x27;text/html&#x27;
+  ];
+  return faker.system.<span class="apidocCodeKeywordSpan">fileExt</span>(faker.random.arrayElement(types));
+};
+
+
+/**
+ * returns any file type available as mime-type
+ *
+ * @method faker.system.fileType
+...</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.system.fileName" id="apidoc.element.faker.system.fileName">
+        function <span class="apidocSignatureSpan">faker.system.</span>fileName
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fileName = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.system.filePath" id="apidoc.element.faker.system.filePath">
+        function <span class="apidocSignatureSpan">faker.system.</span>filePath
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">filePath = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.system.fileType" id="apidoc.element.faker.system.fileType">
+        function <span class="apidocSignatureSpan">faker.system.</span>fileType
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">fileType = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.system.mimeType" id="apidoc.element.faker.system.mimeType">
+        function <span class="apidocSignatureSpan">faker.system.</span>mimeType
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">mimeType = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.faker.system.semver" id="apidoc.element.faker.system.semver">
+        function <span class="apidocSignatureSpan">faker.system.</span>semver
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">semver = function () { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
