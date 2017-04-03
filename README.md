@@ -1,11 +1,13 @@
-# api documentation for  [faker (v4.1.0)](https://github.com/Marak/Faker.js#readme)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-faker.svg)](https://travis-ci.org/npmdoc/node-npmdoc-faker)
+# api documentation for  [faker (v4.1.0)](https://github.com/Marak/Faker.js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-faker.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-faker) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-faker.svg)](https://travis-ci.org/npmdoc/node-npmdoc-faker)
 #### Generate massive amounts of fake contextual data
 
 [![NPM](https://nodei.co/npm/faker.png?downloads=true)](https://www.npmjs.com/package/faker)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-faker/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-faker_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-faker/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-faker/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-faker_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-faker/build..beta..travis-ci.org/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-faker/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-faker/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-faker/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
@@ -82,26 +84,61 @@
 
 #### [module faker](#apidoc.module.faker)
 1.  [function <span class="apidocSignatureSpan">faker.</span>fake (str)](#apidoc.element.faker.fake)
-1.  [function <span class="apidocSignatureSpan">faker.</span>index (opts)](#apidoc.element.faker.index)
 1.  object <span class="apidocSignatureSpan">faker.</span>address
+1.  object <span class="apidocSignatureSpan">faker.</span>az
 1.  object <span class="apidocSignatureSpan">faker.</span>commerce
 1.  object <span class="apidocSignatureSpan">faker.</span>company
+1.  object <span class="apidocSignatureSpan">faker.</span>cz
 1.  object <span class="apidocSignatureSpan">faker.</span>database
 1.  object <span class="apidocSignatureSpan">faker.</span>date
+1.  object <span class="apidocSignatureSpan">faker.</span>de
+1.  object <span class="apidocSignatureSpan">faker.</span>de_AT
+1.  object <span class="apidocSignatureSpan">faker.</span>de_CH
 1.  object <span class="apidocSignatureSpan">faker.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.</span>en
+1.  object <span class="apidocSignatureSpan">faker.</span>en_AU
+1.  object <span class="apidocSignatureSpan">faker.</span>en_BORK
+1.  object <span class="apidocSignatureSpan">faker.</span>en_CA
+1.  object <span class="apidocSignatureSpan">faker.</span>en_GB
+1.  object <span class="apidocSignatureSpan">faker.</span>en_IE
+1.  object <span class="apidocSignatureSpan">faker.</span>en_IND
+1.  object <span class="apidocSignatureSpan">faker.</span>en_US
+1.  object <span class="apidocSignatureSpan">faker.</span>en_au_ocker
+1.  object <span class="apidocSignatureSpan">faker.</span>es
+1.  object <span class="apidocSignatureSpan">faker.</span>es_MX
+1.  object <span class="apidocSignatureSpan">faker.</span>fa
 1.  object <span class="apidocSignatureSpan">faker.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.</span>fr
+1.  object <span class="apidocSignatureSpan">faker.</span>fr_CA
+1.  object <span class="apidocSignatureSpan">faker.</span>ge
 1.  object <span class="apidocSignatureSpan">faker.</span>hacker
 1.  object <span class="apidocSignatureSpan">faker.</span>helpers
 1.  object <span class="apidocSignatureSpan">faker.</span>iban
+1.  object <span class="apidocSignatureSpan">faker.</span>id_ID
 1.  object <span class="apidocSignatureSpan">faker.</span>image
-1.  object <span class="apidocSignatureSpan">faker.</span>index.prototype
 1.  object <span class="apidocSignatureSpan">faker.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.</span>it
+1.  object <span class="apidocSignatureSpan">faker.</span>ja
+1.  object <span class="apidocSignatureSpan">faker.</span>ko
 1.  object <span class="apidocSignatureSpan">faker.</span>locales
 1.  object <span class="apidocSignatureSpan">faker.</span>lorem
 1.  object <span class="apidocSignatureSpan">faker.</span>name
+1.  object <span class="apidocSignatureSpan">faker.</span>nb_NO
+1.  object <span class="apidocSignatureSpan">faker.</span>nep
+1.  object <span class="apidocSignatureSpan">faker.</span>nl
 1.  object <span class="apidocSignatureSpan">faker.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.</span>pl
+1.  object <span class="apidocSignatureSpan">faker.</span>pt_BR
 1.  object <span class="apidocSignatureSpan">faker.</span>random
+1.  object <span class="apidocSignatureSpan">faker.</span>ru
+1.  object <span class="apidocSignatureSpan">faker.</span>sk
+1.  object <span class="apidocSignatureSpan">faker.</span>sv
 1.  object <span class="apidocSignatureSpan">faker.</span>system
+1.  object <span class="apidocSignatureSpan">faker.</span>tr
+1.  object <span class="apidocSignatureSpan">faker.</span>uk
+1.  object <span class="apidocSignatureSpan">faker.</span>vi
+1.  object <span class="apidocSignatureSpan">faker.</span>zh_CN
+1.  object <span class="apidocSignatureSpan">faker.</span>zh_TW
 1.  string <span class="apidocSignatureSpan">faker.</span>locale
 1.  string <span class="apidocSignatureSpan">faker.</span>localeFallback
 
@@ -122,6 +159,28 @@
 1.  [function <span class="apidocSignatureSpan">faker.address.</span>streetPrefix ()](#apidoc.element.faker.address.streetPrefix)
 1.  [function <span class="apidocSignatureSpan">faker.address.</span>streetSuffix ()](#apidoc.element.faker.address.streetSuffix)
 1.  [function <span class="apidocSignatureSpan">faker.address.</span>zipCode ()](#apidoc.element.faker.address.zipCode)
+
+#### [module faker.az](#apidoc.module.faker.az)
+1.  [function <span class="apidocSignatureSpan">faker.az.</span>fake (str)](#apidoc.element.faker.az.fake)
+1.  object <span class="apidocSignatureSpan">faker.az.</span>address
+1.  object <span class="apidocSignatureSpan">faker.az.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.az.</span>company
+1.  object <span class="apidocSignatureSpan">faker.az.</span>database
+1.  object <span class="apidocSignatureSpan">faker.az.</span>date
+1.  object <span class="apidocSignatureSpan">faker.az.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.az.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.az.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.az.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.az.</span>image
+1.  object <span class="apidocSignatureSpan">faker.az.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.az.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.az.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.az.</span>name
+1.  object <span class="apidocSignatureSpan">faker.az.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.az.</span>random
+1.  object <span class="apidocSignatureSpan">faker.az.</span>system
+1.  string <span class="apidocSignatureSpan">faker.az.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.az.</span>localeFallback
 
 #### [module faker.commerce](#apidoc.module.faker.commerce)
 1.  [function <span class="apidocSignatureSpan">faker.commerce.</span>color ()](#apidoc.element.faker.commerce.color)
@@ -145,6 +204,28 @@
 1.  [function <span class="apidocSignatureSpan">faker.company.</span>companySuffix ()](#apidoc.element.faker.company.companySuffix)
 1.  [function <span class="apidocSignatureSpan">faker.company.</span>suffixes ()](#apidoc.element.faker.company.suffixes)
 
+#### [module faker.cz](#apidoc.module.faker.cz)
+1.  [function <span class="apidocSignatureSpan">faker.cz.</span>fake (str)](#apidoc.element.faker.cz.fake)
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>address
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>company
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>database
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>date
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>image
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>name
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>random
+1.  object <span class="apidocSignatureSpan">faker.cz.</span>system
+1.  string <span class="apidocSignatureSpan">faker.cz.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.cz.</span>localeFallback
+
 #### [module faker.database](#apidoc.module.faker.database)
 1.  [function <span class="apidocSignatureSpan">faker.database.</span>collation ()](#apidoc.element.faker.database.collation)
 1.  [function <span class="apidocSignatureSpan">faker.database.</span>column ()](#apidoc.element.faker.database.column)
@@ -159,6 +240,336 @@
 1.  [function <span class="apidocSignatureSpan">faker.date.</span>recent ()](#apidoc.element.faker.date.recent)
 1.  [function <span class="apidocSignatureSpan">faker.date.</span>weekday ()](#apidoc.element.faker.date.weekday)
 
+#### [module faker.de](#apidoc.module.faker.de)
+1.  [function <span class="apidocSignatureSpan">faker.de.</span>fake (str)](#apidoc.element.faker.de.fake)
+1.  object <span class="apidocSignatureSpan">faker.de.</span>address
+1.  object <span class="apidocSignatureSpan">faker.de.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.de.</span>company
+1.  object <span class="apidocSignatureSpan">faker.de.</span>database
+1.  object <span class="apidocSignatureSpan">faker.de.</span>date
+1.  object <span class="apidocSignatureSpan">faker.de.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.de.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.de.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.de.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.de.</span>image
+1.  object <span class="apidocSignatureSpan">faker.de.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.de.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.de.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.de.</span>name
+1.  object <span class="apidocSignatureSpan">faker.de.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.de.</span>random
+1.  object <span class="apidocSignatureSpan">faker.de.</span>system
+1.  string <span class="apidocSignatureSpan">faker.de.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.de.</span>localeFallback
+
+#### [module faker.de_AT](#apidoc.module.faker.de_AT)
+1.  [function <span class="apidocSignatureSpan">faker.de_AT.</span>fake (str)](#apidoc.element.faker.de_AT.fake)
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>address
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>company
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>database
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>date
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>image
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>name
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>random
+1.  object <span class="apidocSignatureSpan">faker.de_AT.</span>system
+1.  string <span class="apidocSignatureSpan">faker.de_AT.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.de_AT.</span>localeFallback
+
+#### [module faker.de_CH](#apidoc.module.faker.de_CH)
+1.  [function <span class="apidocSignatureSpan">faker.de_CH.</span>fake (str)](#apidoc.element.faker.de_CH.fake)
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>address
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>company
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>database
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>date
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>image
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>name
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>random
+1.  object <span class="apidocSignatureSpan">faker.de_CH.</span>system
+1.  string <span class="apidocSignatureSpan">faker.de_CH.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.de_CH.</span>localeFallback
+
+#### [module faker.en](#apidoc.module.faker.en)
+1.  [function <span class="apidocSignatureSpan">faker.en.</span>fake (str)](#apidoc.element.faker.en.fake)
+1.  object <span class="apidocSignatureSpan">faker.en.</span>address
+1.  object <span class="apidocSignatureSpan">faker.en.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.en.</span>company
+1.  object <span class="apidocSignatureSpan">faker.en.</span>database
+1.  object <span class="apidocSignatureSpan">faker.en.</span>date
+1.  object <span class="apidocSignatureSpan">faker.en.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.en.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.en.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.en.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.en.</span>image
+1.  object <span class="apidocSignatureSpan">faker.en.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.en.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.en.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.en.</span>name
+1.  object <span class="apidocSignatureSpan">faker.en.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.en.</span>random
+1.  object <span class="apidocSignatureSpan">faker.en.</span>system
+1.  string <span class="apidocSignatureSpan">faker.en.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.en.</span>localeFallback
+
+#### [module faker.en_AU](#apidoc.module.faker.en_AU)
+1.  [function <span class="apidocSignatureSpan">faker.en_AU.</span>fake (str)](#apidoc.element.faker.en_AU.fake)
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>address
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>company
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>database
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>date
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>image
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>name
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>random
+1.  object <span class="apidocSignatureSpan">faker.en_AU.</span>system
+1.  string <span class="apidocSignatureSpan">faker.en_AU.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.en_AU.</span>localeFallback
+
+#### [module faker.en_BORK](#apidoc.module.faker.en_BORK)
+1.  [function <span class="apidocSignatureSpan">faker.en_BORK.</span>fake (str)](#apidoc.element.faker.en_BORK.fake)
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>address
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>company
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>database
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>date
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>image
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>name
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>random
+1.  object <span class="apidocSignatureSpan">faker.en_BORK.</span>system
+1.  string <span class="apidocSignatureSpan">faker.en_BORK.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.en_BORK.</span>localeFallback
+
+#### [module faker.en_CA](#apidoc.module.faker.en_CA)
+1.  [function <span class="apidocSignatureSpan">faker.en_CA.</span>fake (str)](#apidoc.element.faker.en_CA.fake)
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>address
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>company
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>database
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>date
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>image
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>name
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>random
+1.  object <span class="apidocSignatureSpan">faker.en_CA.</span>system
+1.  string <span class="apidocSignatureSpan">faker.en_CA.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.en_CA.</span>localeFallback
+
+#### [module faker.en_GB](#apidoc.module.faker.en_GB)
+1.  [function <span class="apidocSignatureSpan">faker.en_GB.</span>fake (str)](#apidoc.element.faker.en_GB.fake)
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>address
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>company
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>database
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>date
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>image
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>name
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>random
+1.  object <span class="apidocSignatureSpan">faker.en_GB.</span>system
+1.  string <span class="apidocSignatureSpan">faker.en_GB.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.en_GB.</span>localeFallback
+
+#### [module faker.en_IE](#apidoc.module.faker.en_IE)
+1.  [function <span class="apidocSignatureSpan">faker.en_IE.</span>fake (str)](#apidoc.element.faker.en_IE.fake)
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>address
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>company
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>database
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>date
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>image
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>name
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>random
+1.  object <span class="apidocSignatureSpan">faker.en_IE.</span>system
+1.  string <span class="apidocSignatureSpan">faker.en_IE.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.en_IE.</span>localeFallback
+
+#### [module faker.en_IND](#apidoc.module.faker.en_IND)
+1.  [function <span class="apidocSignatureSpan">faker.en_IND.</span>fake (str)](#apidoc.element.faker.en_IND.fake)
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>address
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>company
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>database
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>date
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>image
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>name
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>random
+1.  object <span class="apidocSignatureSpan">faker.en_IND.</span>system
+1.  string <span class="apidocSignatureSpan">faker.en_IND.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.en_IND.</span>localeFallback
+
+#### [module faker.en_US](#apidoc.module.faker.en_US)
+1.  [function <span class="apidocSignatureSpan">faker.en_US.</span>fake (str)](#apidoc.element.faker.en_US.fake)
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>address
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>company
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>database
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>date
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>image
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>name
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>random
+1.  object <span class="apidocSignatureSpan">faker.en_US.</span>system
+1.  string <span class="apidocSignatureSpan">faker.en_US.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.en_US.</span>localeFallback
+
+#### [module faker.en_au_ocker](#apidoc.module.faker.en_au_ocker)
+1.  [function <span class="apidocSignatureSpan">faker.en_au_ocker.</span>fake (str)](#apidoc.element.faker.en_au_ocker.fake)
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>address
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>company
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>database
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>date
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>image
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>name
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>random
+1.  object <span class="apidocSignatureSpan">faker.en_au_ocker.</span>system
+1.  string <span class="apidocSignatureSpan">faker.en_au_ocker.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.en_au_ocker.</span>localeFallback
+
+#### [module faker.es](#apidoc.module.faker.es)
+1.  [function <span class="apidocSignatureSpan">faker.es.</span>fake (str)](#apidoc.element.faker.es.fake)
+1.  object <span class="apidocSignatureSpan">faker.es.</span>address
+1.  object <span class="apidocSignatureSpan">faker.es.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.es.</span>company
+1.  object <span class="apidocSignatureSpan">faker.es.</span>database
+1.  object <span class="apidocSignatureSpan">faker.es.</span>date
+1.  object <span class="apidocSignatureSpan">faker.es.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.es.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.es.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.es.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.es.</span>image
+1.  object <span class="apidocSignatureSpan">faker.es.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.es.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.es.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.es.</span>name
+1.  object <span class="apidocSignatureSpan">faker.es.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.es.</span>random
+1.  object <span class="apidocSignatureSpan">faker.es.</span>system
+1.  string <span class="apidocSignatureSpan">faker.es.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.es.</span>localeFallback
+
+#### [module faker.es_MX](#apidoc.module.faker.es_MX)
+1.  [function <span class="apidocSignatureSpan">faker.es_MX.</span>fake (str)](#apidoc.element.faker.es_MX.fake)
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>address
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>company
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>database
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>date
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>image
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>name
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>random
+1.  object <span class="apidocSignatureSpan">faker.es_MX.</span>system
+1.  string <span class="apidocSignatureSpan">faker.es_MX.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.es_MX.</span>localeFallback
+
+#### [module faker.fa](#apidoc.module.faker.fa)
+1.  [function <span class="apidocSignatureSpan">faker.fa.</span>fake (str)](#apidoc.element.faker.fa.fake)
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>address
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>company
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>database
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>date
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>image
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>name
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>random
+1.  object <span class="apidocSignatureSpan">faker.fa.</span>system
+1.  string <span class="apidocSignatureSpan">faker.fa.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.fa.</span>localeFallback
+
 #### [module faker.finance](#apidoc.module.faker.finance)
 1.  [function <span class="apidocSignatureSpan">faker.finance.</span>account ()](#apidoc.element.faker.finance.account)
 1.  [function <span class="apidocSignatureSpan">faker.finance.</span>accountName ()](#apidoc.element.faker.finance.accountName)
@@ -171,6 +582,72 @@
 1.  [function <span class="apidocSignatureSpan">faker.finance.</span>iban ()](#apidoc.element.faker.finance.iban)
 1.  [function <span class="apidocSignatureSpan">faker.finance.</span>mask ()](#apidoc.element.faker.finance.mask)
 1.  [function <span class="apidocSignatureSpan">faker.finance.</span>transactionType ()](#apidoc.element.faker.finance.transactionType)
+
+#### [module faker.fr](#apidoc.module.faker.fr)
+1.  [function <span class="apidocSignatureSpan">faker.fr.</span>fake (str)](#apidoc.element.faker.fr.fake)
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>address
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>company
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>database
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>date
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>image
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>name
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>random
+1.  object <span class="apidocSignatureSpan">faker.fr.</span>system
+1.  string <span class="apidocSignatureSpan">faker.fr.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.fr.</span>localeFallback
+
+#### [module faker.fr_CA](#apidoc.module.faker.fr_CA)
+1.  [function <span class="apidocSignatureSpan">faker.fr_CA.</span>fake (str)](#apidoc.element.faker.fr_CA.fake)
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>address
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>company
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>database
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>date
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>image
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>name
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>random
+1.  object <span class="apidocSignatureSpan">faker.fr_CA.</span>system
+1.  string <span class="apidocSignatureSpan">faker.fr_CA.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.fr_CA.</span>localeFallback
+
+#### [module faker.ge](#apidoc.module.faker.ge)
+1.  [function <span class="apidocSignatureSpan">faker.ge.</span>fake (str)](#apidoc.element.faker.ge.fake)
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>address
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>company
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>database
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>date
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>image
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>name
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>random
+1.  object <span class="apidocSignatureSpan">faker.ge.</span>system
+1.  string <span class="apidocSignatureSpan">faker.ge.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.ge.</span>localeFallback
 
 #### [module faker.hacker](#apidoc.module.faker.hacker)
 1.  [function <span class="apidocSignatureSpan">faker.hacker.</span>abbreviation ()](#apidoc.element.faker.hacker.abbreviation)
@@ -201,6 +678,28 @@
 1.  object <span class="apidocSignatureSpan">faker.iban.</span>pattern10
 1.  object <span class="apidocSignatureSpan">faker.iban.</span>pattern100
 
+#### [module faker.id_ID](#apidoc.module.faker.id_ID)
+1.  [function <span class="apidocSignatureSpan">faker.id_ID.</span>fake (str)](#apidoc.element.faker.id_ID.fake)
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>address
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>company
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>database
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>date
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>image
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>name
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>random
+1.  object <span class="apidocSignatureSpan">faker.id_ID.</span>system
+1.  string <span class="apidocSignatureSpan">faker.id_ID.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.id_ID.</span>localeFallback
+
 #### [module faker.image](#apidoc.module.faker.image)
 1.  [function <span class="apidocSignatureSpan">faker.</span>image ()](#apidoc.element.faker.image.image)
 1.  [function <span class="apidocSignatureSpan">faker.image.</span>abstract ()](#apidoc.element.faker.image.abstract)
@@ -220,12 +719,6 @@
 1.  [function <span class="apidocSignatureSpan">faker.image.</span>technics ()](#apidoc.element.faker.image.technics)
 1.  [function <span class="apidocSignatureSpan">faker.image.</span>transport ()](#apidoc.element.faker.image.transport)
 
-#### [module faker.index](#apidoc.module.faker.index)
-1.  [function <span class="apidocSignatureSpan">faker.</span>index (opts)](#apidoc.element.faker.index.index)
-
-#### [module faker.index.prototype](#apidoc.module.faker.index.prototype)
-1.  [function <span class="apidocSignatureSpan">faker.index.prototype.</span>seed (value)](#apidoc.element.faker.index.prototype.seed)
-
 #### [module faker.internet](#apidoc.module.faker.internet)
 1.  [function <span class="apidocSignatureSpan">faker.internet.</span>avatar ()](#apidoc.element.faker.internet.avatar)
 1.  [function <span class="apidocSignatureSpan">faker.internet.</span>color ()](#apidoc.element.faker.internet.color)
@@ -242,6 +735,72 @@
 1.  [function <span class="apidocSignatureSpan">faker.internet.</span>url ()](#apidoc.element.faker.internet.url)
 1.  [function <span class="apidocSignatureSpan">faker.internet.</span>userAgent ()](#apidoc.element.faker.internet.userAgent)
 1.  [function <span class="apidocSignatureSpan">faker.internet.</span>userName ()](#apidoc.element.faker.internet.userName)
+
+#### [module faker.it](#apidoc.module.faker.it)
+1.  [function <span class="apidocSignatureSpan">faker.it.</span>fake (str)](#apidoc.element.faker.it.fake)
+1.  object <span class="apidocSignatureSpan">faker.it.</span>address
+1.  object <span class="apidocSignatureSpan">faker.it.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.it.</span>company
+1.  object <span class="apidocSignatureSpan">faker.it.</span>database
+1.  object <span class="apidocSignatureSpan">faker.it.</span>date
+1.  object <span class="apidocSignatureSpan">faker.it.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.it.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.it.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.it.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.it.</span>image
+1.  object <span class="apidocSignatureSpan">faker.it.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.it.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.it.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.it.</span>name
+1.  object <span class="apidocSignatureSpan">faker.it.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.it.</span>random
+1.  object <span class="apidocSignatureSpan">faker.it.</span>system
+1.  string <span class="apidocSignatureSpan">faker.it.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.it.</span>localeFallback
+
+#### [module faker.ja](#apidoc.module.faker.ja)
+1.  [function <span class="apidocSignatureSpan">faker.ja.</span>fake (str)](#apidoc.element.faker.ja.fake)
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>address
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>company
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>database
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>date
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>image
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>name
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>random
+1.  object <span class="apidocSignatureSpan">faker.ja.</span>system
+1.  string <span class="apidocSignatureSpan">faker.ja.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.ja.</span>localeFallback
+
+#### [module faker.ko](#apidoc.module.faker.ko)
+1.  [function <span class="apidocSignatureSpan">faker.ko.</span>fake (str)](#apidoc.element.faker.ko.fake)
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>address
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>company
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>database
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>date
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>image
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>name
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>random
+1.  object <span class="apidocSignatureSpan">faker.ko.</span>system
+1.  string <span class="apidocSignatureSpan">faker.ko.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.ko.</span>localeFallback
 
 #### [module faker.lorem](#apidoc.module.faker.lorem)
 1.  [function <span class="apidocSignatureSpan">faker.lorem.</span>lines ()](#apidoc.element.faker.lorem.lines)
@@ -266,10 +825,120 @@
 1.  [function <span class="apidocSignatureSpan">faker.name.</span>suffix ()](#apidoc.element.faker.name.suffix)
 1.  [function <span class="apidocSignatureSpan">faker.name.</span>title ()](#apidoc.element.faker.name.title)
 
+#### [module faker.nb_NO](#apidoc.module.faker.nb_NO)
+1.  [function <span class="apidocSignatureSpan">faker.nb_NO.</span>fake (str)](#apidoc.element.faker.nb_NO.fake)
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>address
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>company
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>database
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>date
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>image
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>name
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>random
+1.  object <span class="apidocSignatureSpan">faker.nb_NO.</span>system
+1.  string <span class="apidocSignatureSpan">faker.nb_NO.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.nb_NO.</span>localeFallback
+
+#### [module faker.nep](#apidoc.module.faker.nep)
+1.  [function <span class="apidocSignatureSpan">faker.nep.</span>fake (str)](#apidoc.element.faker.nep.fake)
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>address
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>company
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>database
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>date
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>image
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>name
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>random
+1.  object <span class="apidocSignatureSpan">faker.nep.</span>system
+1.  string <span class="apidocSignatureSpan">faker.nep.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.nep.</span>localeFallback
+
+#### [module faker.nl](#apidoc.module.faker.nl)
+1.  [function <span class="apidocSignatureSpan">faker.nl.</span>fake (str)](#apidoc.element.faker.nl.fake)
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>address
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>company
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>database
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>date
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>image
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>name
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>random
+1.  object <span class="apidocSignatureSpan">faker.nl.</span>system
+1.  string <span class="apidocSignatureSpan">faker.nl.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.nl.</span>localeFallback
+
 #### [module faker.phone](#apidoc.module.faker.phone)
 1.  [function <span class="apidocSignatureSpan">faker.phone.</span>phoneFormats ()](#apidoc.element.faker.phone.phoneFormats)
 1.  [function <span class="apidocSignatureSpan">faker.phone.</span>phoneNumber ()](#apidoc.element.faker.phone.phoneNumber)
 1.  [function <span class="apidocSignatureSpan">faker.phone.</span>phoneNumberFormat ()](#apidoc.element.faker.phone.phoneNumberFormat)
+
+#### [module faker.pl](#apidoc.module.faker.pl)
+1.  [function <span class="apidocSignatureSpan">faker.pl.</span>fake (str)](#apidoc.element.faker.pl.fake)
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>address
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>company
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>database
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>date
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>image
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>name
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>random
+1.  object <span class="apidocSignatureSpan">faker.pl.</span>system
+1.  string <span class="apidocSignatureSpan">faker.pl.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.pl.</span>localeFallback
+
+#### [module faker.pt_BR](#apidoc.module.faker.pt_BR)
+1.  [function <span class="apidocSignatureSpan">faker.pt_BR.</span>fake (str)](#apidoc.element.faker.pt_BR.fake)
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>address
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>company
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>database
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>date
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>image
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>name
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>random
+1.  object <span class="apidocSignatureSpan">faker.pt_BR.</span>system
+1.  string <span class="apidocSignatureSpan">faker.pt_BR.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.pt_BR.</span>localeFallback
 
 #### [module faker.random](#apidoc.module.faker.random)
 1.  [function <span class="apidocSignatureSpan">faker.random.</span>alphaNumeric ()](#apidoc.element.faker.random.alphaNumeric)
@@ -283,6 +952,72 @@
 1.  [function <span class="apidocSignatureSpan">faker.random.</span>word ()](#apidoc.element.faker.random.word)
 1.  [function <span class="apidocSignatureSpan">faker.random.</span>words ()](#apidoc.element.faker.random.words)
 
+#### [module faker.ru](#apidoc.module.faker.ru)
+1.  [function <span class="apidocSignatureSpan">faker.ru.</span>fake (str)](#apidoc.element.faker.ru.fake)
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>address
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>company
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>database
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>date
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>image
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>name
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>random
+1.  object <span class="apidocSignatureSpan">faker.ru.</span>system
+1.  string <span class="apidocSignatureSpan">faker.ru.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.ru.</span>localeFallback
+
+#### [module faker.sk](#apidoc.module.faker.sk)
+1.  [function <span class="apidocSignatureSpan">faker.sk.</span>fake (str)](#apidoc.element.faker.sk.fake)
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>address
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>company
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>database
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>date
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>image
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>name
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>random
+1.  object <span class="apidocSignatureSpan">faker.sk.</span>system
+1.  string <span class="apidocSignatureSpan">faker.sk.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.sk.</span>localeFallback
+
+#### [module faker.sv](#apidoc.module.faker.sv)
+1.  [function <span class="apidocSignatureSpan">faker.sv.</span>fake (str)](#apidoc.element.faker.sv.fake)
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>address
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>company
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>database
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>date
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>image
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>name
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>random
+1.  object <span class="apidocSignatureSpan">faker.sv.</span>system
+1.  string <span class="apidocSignatureSpan">faker.sv.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.sv.</span>localeFallback
+
 #### [module faker.system](#apidoc.module.faker.system)
 1.  [function <span class="apidocSignatureSpan">faker.system.</span>commonFileExt ()](#apidoc.element.faker.system.commonFileExt)
 1.  [function <span class="apidocSignatureSpan">faker.system.</span>commonFileName ()](#apidoc.element.faker.system.commonFileName)
@@ -294,6 +1029,116 @@
 1.  [function <span class="apidocSignatureSpan">faker.system.</span>fileType ()](#apidoc.element.faker.system.fileType)
 1.  [function <span class="apidocSignatureSpan">faker.system.</span>mimeType ()](#apidoc.element.faker.system.mimeType)
 1.  [function <span class="apidocSignatureSpan">faker.system.</span>semver ()](#apidoc.element.faker.system.semver)
+
+#### [module faker.tr](#apidoc.module.faker.tr)
+1.  [function <span class="apidocSignatureSpan">faker.tr.</span>fake (str)](#apidoc.element.faker.tr.fake)
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>address
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>company
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>database
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>date
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>image
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>name
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>random
+1.  object <span class="apidocSignatureSpan">faker.tr.</span>system
+1.  string <span class="apidocSignatureSpan">faker.tr.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.tr.</span>localeFallback
+
+#### [module faker.uk](#apidoc.module.faker.uk)
+1.  [function <span class="apidocSignatureSpan">faker.uk.</span>fake (str)](#apidoc.element.faker.uk.fake)
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>address
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>company
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>database
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>date
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>image
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>name
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>random
+1.  object <span class="apidocSignatureSpan">faker.uk.</span>system
+1.  string <span class="apidocSignatureSpan">faker.uk.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.uk.</span>localeFallback
+
+#### [module faker.vi](#apidoc.module.faker.vi)
+1.  [function <span class="apidocSignatureSpan">faker.vi.</span>fake (str)](#apidoc.element.faker.vi.fake)
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>address
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>company
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>database
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>date
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>image
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>name
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>random
+1.  object <span class="apidocSignatureSpan">faker.vi.</span>system
+1.  string <span class="apidocSignatureSpan">faker.vi.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.vi.</span>localeFallback
+
+#### [module faker.zh_CN](#apidoc.module.faker.zh_CN)
+1.  [function <span class="apidocSignatureSpan">faker.zh_CN.</span>fake (str)](#apidoc.element.faker.zh_CN.fake)
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>address
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>company
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>database
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>date
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>image
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>name
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>random
+1.  object <span class="apidocSignatureSpan">faker.zh_CN.</span>system
+1.  string <span class="apidocSignatureSpan">faker.zh_CN.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.zh_CN.</span>localeFallback
+
+#### [module faker.zh_TW](#apidoc.module.faker.zh_TW)
+1.  [function <span class="apidocSignatureSpan">faker.zh_TW.</span>fake (str)](#apidoc.element.faker.zh_TW.fake)
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>address
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>commerce
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>company
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>database
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>date
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>definitions
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>finance
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>hacker
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>helpers
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>image
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>internet
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>locales
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>lorem
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>name
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>phone
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>random
+1.  object <span class="apidocSignatureSpan">faker.zh_TW.</span>system
+1.  string <span class="apidocSignatureSpan">faker.zh_TW.</span>locale
+1.  string <span class="apidocSignatureSpan">faker.zh_TW.</span>localeFallback
 
 
 
@@ -399,137 +1244,6 @@ faker.js contains a super useful generator method 'Faker.fake' for combining fak
 ''' js
 console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
 ...
-```
-
-#### <a name="apidoc.element.faker.index"></a>[function <span class="apidocSignatureSpan">faker.</span>index (opts)](#apidoc.element.faker.index)
-- description and source-code
-```javascript
-function Faker(opts) {
-
-  var self = this;
-
-  opts = opts || {};
-
-  // assign options
-  var locales = self.locales || opts.locales || {};
-  var locale = self.locale || opts.locale || "en";
-  var localeFallback = self.localeFallback || opts.localeFallback || "en";
-
-  self.locales = locales;
-  self.locale = locale;
-  self.localeFallback = localeFallback;
-
-  self.definitions = {};
-
-  function bindAll(obj) {
-      Object.keys(obj).forEach(function(meth) {
-          if (typeof obj[meth] === 'function') {
-              obj[meth] = obj[meth].bind(obj);
-          }
-      });
-      return obj;
-  }
-
-  var Fake = require('./fake');
-  self.fake = new Fake(self).fake;
-
-  var Random = require('./random');
-  self.random = bindAll(new Random(self));
-
-  var Helpers = require('./helpers');
-  self.helpers = new Helpers(self);
-
-  var Name = require('./name');
-  self.name = bindAll(new Name(self));
-
-  var Address = require('./address');
-  self.address = bindAll(new Address(self));
-
-  var Company = require('./company');
-  self.company = bindAll(new Company(self));
-
-  var Finance = require('./finance');
-  self.finance = bindAll(new Finance(self));
-
-  var Image = require('./image');
-  self.image = bindAll(new Image(self));
-
-  var Lorem = require('./lorem');
-  self.lorem = bindAll(new Lorem(self));
-
-  var Hacker = require('./hacker');
-  self.hacker = bindAll(new Hacker(self));
-
-  var Internet = require('./internet');
-  self.internet = bindAll(new Internet(self));
-
-  var Database = require('./database');
-  self.database = bindAll(new Database(self));
-
-  var Phone = require('./phone_number');
-  self.phone = bindAll(new Phone(self));
-
-  var _Date = require('./date');
-  self.date = bindAll(new _Date(self));
-
-  var Commerce = require('./commerce');
-  self.commerce = bindAll(new Commerce(self));
-
-  var System = require('./system');
-  self.system = bindAll(new System(self));
-
-  var _definitions = {
-    "name": ["first_name", "last_name", "prefix", "suffix", "title", "male_first_name", "female_first_name", "male_middle_name", "
-female_middle_name", "male_last_name", "female_last_name"],
-    "address": ["city_prefix", "city_suffix", "street_suffix", "county", "country", "country_code", "state", "state_abbr", "street_prefix
-", "postcode"],
-    "company": ["adjective", "noun", "descriptor", "bs_adjective", "bs_noun", "bs_verb", "suffix"],
-    "lorem": ["words"],
-    "hacker": ["abbreviation", "adjective", "noun", "verb", "ingverb"],
-    "phone_number": ["formats"],
-    "finance": ["account_type", "transaction_type", "currency", "iban"],
-    "internet": ["avatar_uri", "domain_suffix", "free_email", "example_email", "password"],
-    "commerce": ["color", "department", "product_name", "price", "categories"],
-    "database": ["collation", "column", "engine", "type"],
-    "system": ["mimeTypes"],
-    "date": ["month", "weekday"],
-    "title": "",
-    "separator": ""
-  };
-
-  // Create a Getter for all definitions.foo.bar properties
-  Object.keys(_definitions).forEach(function(d){
-    if (typeof self.definitions[d] === "undefined") {
-      self.definitions[d] = {};
-    }
-
-    if (typeof _definitions[d] === "string") {
-        self.definitions[d] = _definitions[d];
-      return;
-    }
-
-    _definitions[d].forEach(function(p){
-      Object.defineProperty(self.definitions[d], p, {
-        get: function () {
-          if (typeof self.locales[self.locale][d] === "undefined" || typeof self.locales[self.locale][d][p] === "undefined") {
-            // certain localization sets contain less data then others.
-            // in the case of a missing definition, use the default localeFallback to substitute the missing set data
-            // throw new Error('unknown property ' + d + p)
-            return self.locales[localeFallback][d][p];
-          } else {
-            // return localized data
-            return self.locales[self.locale][d][p];
-          }
-        }
-      });
-    });
-  });
-
-}
-```
-- example usage
-```shell
-n/a
 ```
 
 
@@ -858,6 +1572,112 @@ zipCode = function () { [native code] }
 
 
 
+# <a name="apidoc.module.faker.az"></a>[module faker.az](#apidoc.module.faker.az)
+
+#### <a name="apidoc.element.faker.az.fake"></a>[function <span class="apidocSignatureSpan">faker.az.</span>fake (str)](#apidoc.element.faker.az.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
 # <a name="apidoc.module.faker.commerce"></a>[module faker.commerce](#apidoc.module.faker.commerce)
 
 #### <a name="apidoc.element.faker.commerce.color"></a>[function <span class="apidocSignatureSpan">faker.commerce.</span>color ()](#apidoc.element.faker.commerce.color)
@@ -1158,6 +1978,112 @@ this.companySuffix = function () {
 
 
 
+# <a name="apidoc.module.faker.cz"></a>[module faker.cz](#apidoc.module.faker.cz)
+
+#### <a name="apidoc.element.faker.cz.fake"></a>[function <span class="apidocSignatureSpan">faker.cz.</span>fake (str)](#apidoc.element.faker.cz.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
 # <a name="apidoc.module.faker.database"></a>[module faker.database](#apidoc.module.faker.database)
 
 #### <a name="apidoc.element.faker.database.collation"></a>[function <span class="apidocSignatureSpan">faker.database.</span>collation ()](#apidoc.element.faker.database.collation)
@@ -1278,6 +2204,1596 @@ weekday = function () { [native code] }
 - example usage
 ```shell
 n/a
+```
+
+
+
+# <a name="apidoc.module.faker.de"></a>[module faker.de](#apidoc.module.faker.de)
+
+#### <a name="apidoc.element.faker.de.fake"></a>[function <span class="apidocSignatureSpan">faker.de.</span>fake (str)](#apidoc.element.faker.de.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.de_AT"></a>[module faker.de_AT](#apidoc.module.faker.de_AT)
+
+#### <a name="apidoc.element.faker.de_AT.fake"></a>[function <span class="apidocSignatureSpan">faker.de_AT.</span>fake (str)](#apidoc.element.faker.de_AT.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.de_CH"></a>[module faker.de_CH](#apidoc.module.faker.de_CH)
+
+#### <a name="apidoc.element.faker.de_CH.fake"></a>[function <span class="apidocSignatureSpan">faker.de_CH.</span>fake (str)](#apidoc.element.faker.de_CH.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.en"></a>[module faker.en](#apidoc.module.faker.en)
+
+#### <a name="apidoc.element.faker.en.fake"></a>[function <span class="apidocSignatureSpan">faker.en.</span>fake (str)](#apidoc.element.faker.en.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.en_AU"></a>[module faker.en_AU](#apidoc.module.faker.en_AU)
+
+#### <a name="apidoc.element.faker.en_AU.fake"></a>[function <span class="apidocSignatureSpan">faker.en_AU.</span>fake (str)](#apidoc.element.faker.en_AU.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.en_BORK"></a>[module faker.en_BORK](#apidoc.module.faker.en_BORK)
+
+#### <a name="apidoc.element.faker.en_BORK.fake"></a>[function <span class="apidocSignatureSpan">faker.en_BORK.</span>fake (str)](#apidoc.element.faker.en_BORK.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.en_CA"></a>[module faker.en_CA](#apidoc.module.faker.en_CA)
+
+#### <a name="apidoc.element.faker.en_CA.fake"></a>[function <span class="apidocSignatureSpan">faker.en_CA.</span>fake (str)](#apidoc.element.faker.en_CA.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.en_GB"></a>[module faker.en_GB](#apidoc.module.faker.en_GB)
+
+#### <a name="apidoc.element.faker.en_GB.fake"></a>[function <span class="apidocSignatureSpan">faker.en_GB.</span>fake (str)](#apidoc.element.faker.en_GB.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.en_IE"></a>[module faker.en_IE](#apidoc.module.faker.en_IE)
+
+#### <a name="apidoc.element.faker.en_IE.fake"></a>[function <span class="apidocSignatureSpan">faker.en_IE.</span>fake (str)](#apidoc.element.faker.en_IE.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.en_IND"></a>[module faker.en_IND](#apidoc.module.faker.en_IND)
+
+#### <a name="apidoc.element.faker.en_IND.fake"></a>[function <span class="apidocSignatureSpan">faker.en_IND.</span>fake (str)](#apidoc.element.faker.en_IND.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.en_US"></a>[module faker.en_US](#apidoc.module.faker.en_US)
+
+#### <a name="apidoc.element.faker.en_US.fake"></a>[function <span class="apidocSignatureSpan">faker.en_US.</span>fake (str)](#apidoc.element.faker.en_US.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.en_au_ocker"></a>[module faker.en_au_ocker](#apidoc.module.faker.en_au_ocker)
+
+#### <a name="apidoc.element.faker.en_au_ocker.fake"></a>[function <span class="apidocSignatureSpan">faker.en_au_ocker.</span>fake (str)](#apidoc.element.faker.en_au_ocker.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.es"></a>[module faker.es](#apidoc.module.faker.es)
+
+#### <a name="apidoc.element.faker.es.fake"></a>[function <span class="apidocSignatureSpan">faker.es.</span>fake (str)](#apidoc.element.faker.es.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.es_MX"></a>[module faker.es_MX](#apidoc.module.faker.es_MX)
+
+#### <a name="apidoc.element.faker.es_MX.fake"></a>[function <span class="apidocSignatureSpan">faker.es_MX.</span>fake (str)](#apidoc.element.faker.es_MX.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.fa"></a>[module faker.fa](#apidoc.module.faker.fa)
+
+#### <a name="apidoc.element.faker.fa.fake"></a>[function <span class="apidocSignatureSpan">faker.fa.</span>fake (str)](#apidoc.element.faker.fa.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
 ```
 
 
@@ -1453,6 +3969,324 @@ transactionType = function () { [native code] }
 - example usage
 ```shell
 n/a
+```
+
+
+
+# <a name="apidoc.module.faker.fr"></a>[module faker.fr](#apidoc.module.faker.fr)
+
+#### <a name="apidoc.element.faker.fr.fake"></a>[function <span class="apidocSignatureSpan">faker.fr.</span>fake (str)](#apidoc.element.faker.fr.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.fr_CA"></a>[module faker.fr_CA](#apidoc.module.faker.fr_CA)
+
+#### <a name="apidoc.element.faker.fr_CA.fake"></a>[function <span class="apidocSignatureSpan">faker.fr_CA.</span>fake (str)](#apidoc.element.faker.fr_CA.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.ge"></a>[module faker.ge](#apidoc.module.faker.ge)
+
+#### <a name="apidoc.element.faker.ge.fake"></a>[function <span class="apidocSignatureSpan">faker.ge.</span>fake (str)](#apidoc.element.faker.ge.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
 ```
 
 
@@ -1964,6 +4798,112 @@ toDigitString = function (str) {
 
 
 
+# <a name="apidoc.module.faker.id_ID"></a>[module faker.id_ID](#apidoc.module.faker.id_ID)
+
+#### <a name="apidoc.element.faker.id_ID.fake"></a>[function <span class="apidocSignatureSpan">faker.id_ID.</span>fake (str)](#apidoc.element.faker.id_ID.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
 # <a name="apidoc.module.faker.image"></a>[module faker.image](#apidoc.module.faker.image)
 
 #### <a name="apidoc.element.faker.image.image"></a>[function <span class="apidocSignatureSpan">faker.</span>image ()](#apidoc.element.faker.image.image)
@@ -2198,175 +5138,6 @@ transport = function () { [native code] }
 - example usage
 ```shell
 n/a
-```
-
-
-
-# <a name="apidoc.module.faker.index"></a>[module faker.index](#apidoc.module.faker.index)
-
-#### <a name="apidoc.element.faker.index.index"></a>[function <span class="apidocSignatureSpan">faker.</span>index (opts)](#apidoc.element.faker.index.index)
-- description and source-code
-```javascript
-function Faker(opts) {
-
-  var self = this;
-
-  opts = opts || {};
-
-  // assign options
-  var locales = self.locales || opts.locales || {};
-  var locale = self.locale || opts.locale || "en";
-  var localeFallback = self.localeFallback || opts.localeFallback || "en";
-
-  self.locales = locales;
-  self.locale = locale;
-  self.localeFallback = localeFallback;
-
-  self.definitions = {};
-
-  function bindAll(obj) {
-      Object.keys(obj).forEach(function(meth) {
-          if (typeof obj[meth] === 'function') {
-              obj[meth] = obj[meth].bind(obj);
-          }
-      });
-      return obj;
-  }
-
-  var Fake = require('./fake');
-  self.fake = new Fake(self).fake;
-
-  var Random = require('./random');
-  self.random = bindAll(new Random(self));
-
-  var Helpers = require('./helpers');
-  self.helpers = new Helpers(self);
-
-  var Name = require('./name');
-  self.name = bindAll(new Name(self));
-
-  var Address = require('./address');
-  self.address = bindAll(new Address(self));
-
-  var Company = require('./company');
-  self.company = bindAll(new Company(self));
-
-  var Finance = require('./finance');
-  self.finance = bindAll(new Finance(self));
-
-  var Image = require('./image');
-  self.image = bindAll(new Image(self));
-
-  var Lorem = require('./lorem');
-  self.lorem = bindAll(new Lorem(self));
-
-  var Hacker = require('./hacker');
-  self.hacker = bindAll(new Hacker(self));
-
-  var Internet = require('./internet');
-  self.internet = bindAll(new Internet(self));
-
-  var Database = require('./database');
-  self.database = bindAll(new Database(self));
-
-  var Phone = require('./phone_number');
-  self.phone = bindAll(new Phone(self));
-
-  var _Date = require('./date');
-  self.date = bindAll(new _Date(self));
-
-  var Commerce = require('./commerce');
-  self.commerce = bindAll(new Commerce(self));
-
-  var System = require('./system');
-  self.system = bindAll(new System(self));
-
-  var _definitions = {
-    "name": ["first_name", "last_name", "prefix", "suffix", "title", "male_first_name", "female_first_name", "male_middle_name", "
-female_middle_name", "male_last_name", "female_last_name"],
-    "address": ["city_prefix", "city_suffix", "street_suffix", "county", "country", "country_code", "state", "state_abbr", "street_prefix
-", "postcode"],
-    "company": ["adjective", "noun", "descriptor", "bs_adjective", "bs_noun", "bs_verb", "suffix"],
-    "lorem": ["words"],
-    "hacker": ["abbreviation", "adjective", "noun", "verb", "ingverb"],
-    "phone_number": ["formats"],
-    "finance": ["account_type", "transaction_type", "currency", "iban"],
-    "internet": ["avatar_uri", "domain_suffix", "free_email", "example_email", "password"],
-    "commerce": ["color", "department", "product_name", "price", "categories"],
-    "database": ["collation", "column", "engine", "type"],
-    "system": ["mimeTypes"],
-    "date": ["month", "weekday"],
-    "title": "",
-    "separator": ""
-  };
-
-  // Create a Getter for all definitions.foo.bar properties
-  Object.keys(_definitions).forEach(function(d){
-    if (typeof self.definitions[d] === "undefined") {
-      self.definitions[d] = {};
-    }
-
-    if (typeof _definitions[d] === "string") {
-        self.definitions[d] = _definitions[d];
-      return;
-    }
-
-    _definitions[d].forEach(function(p){
-      Object.defineProperty(self.definitions[d], p, {
-        get: function () {
-          if (typeof self.locales[self.locale][d] === "undefined" || typeof self.locales[self.locale][d][p] === "undefined") {
-            // certain localization sets contain less data then others.
-            // in the case of a missing definition, use the default localeFallback to substitute the missing set data
-            // throw new Error('unknown property ' + d + p)
-            return self.locales[localeFallback][d][p];
-          } else {
-            // return localized data
-            return self.locales[self.locale][d][p];
-          }
-        }
-      });
-    });
-  });
-
-}
-```
-- example usage
-```shell
-n/a
-```
-
-
-
-# <a name="apidoc.module.faker.index.prototype"></a>[module faker.index.prototype](#apidoc.module.faker.index.prototype)
-
-#### <a name="apidoc.element.faker.index.prototype.seed"></a>[function <span class="apidocSignatureSpan">faker.index.prototype.</span>seed (value)](#apidoc.element.faker.index.prototype.seed)
-- description and source-code
-```javascript
-seed = function (value) {
-  var Random = require('./random');
-  this.seedValue = value;
-  this.random = new Random(this, this.seedValue);
-}
-```
-- example usage
-```shell
-...
-'''
-
-## Setting a randomness seed
-
-If you want consistent results, you can set your own seed:
-
-'''js
-faker.seed(123);
-
-var firstRandom = faker.random.number();
-
-// Setting the seed again resets the sequence.
-faker.seed(123);
-
-var secondRandom = faker.random.number();
-...
 ```
 
 
@@ -2629,6 +5400,324 @@ self.createCard = function () {
             "streetC": faker.address.streetAddress(true),
             "streetD": faker.address.secondaryAddress(),
             "city": faker.address.city(),
+...
+```
+
+
+
+# <a name="apidoc.module.faker.it"></a>[module faker.it](#apidoc.module.faker.it)
+
+#### <a name="apidoc.element.faker.it.fake"></a>[function <span class="apidocSignatureSpan">faker.it.</span>fake (str)](#apidoc.element.faker.it.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.ja"></a>[module faker.ja](#apidoc.module.faker.ja)
+
+#### <a name="apidoc.element.faker.ja.fake"></a>[function <span class="apidocSignatureSpan">faker.ja.</span>fake (str)](#apidoc.element.faker.ja.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.ko"></a>[module faker.ko](#apidoc.module.faker.ko)
+
+#### <a name="apidoc.element.faker.ko.fake"></a>[function <span class="apidocSignatureSpan">faker.ko.</span>fake (str)](#apidoc.element.faker.ko.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
 ...
 ```
 
@@ -3037,6 +6126,324 @@ n/a
 
 
 
+# <a name="apidoc.module.faker.nb_NO"></a>[module faker.nb_NO](#apidoc.module.faker.nb_NO)
+
+#### <a name="apidoc.element.faker.nb_NO.fake"></a>[function <span class="apidocSignatureSpan">faker.nb_NO.</span>fake (str)](#apidoc.element.faker.nb_NO.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.nep"></a>[module faker.nep](#apidoc.module.faker.nep)
+
+#### <a name="apidoc.element.faker.nep.fake"></a>[function <span class="apidocSignatureSpan">faker.nep.</span>fake (str)](#apidoc.element.faker.nep.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.nl"></a>[module faker.nl](#apidoc.module.faker.nl)
+
+#### <a name="apidoc.element.faker.nl.fake"></a>[function <span class="apidocSignatureSpan">faker.nl.</span>fake (str)](#apidoc.element.faker.nl.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
 # <a name="apidoc.module.faker.phone"></a>[module faker.phone](#apidoc.module.faker.phone)
 
 #### <a name="apidoc.element.faker.phone.phoneFormats"></a>[function <span class="apidocSignatureSpan">faker.phone.</span>phoneFormats ()](#apidoc.element.faker.phone.phoneFormats)
@@ -3099,6 +6506,218 @@ phoneNumberFormat = function () { [native code] }
 - example usage
 ```shell
 n/a
+```
+
+
+
+# <a name="apidoc.module.faker.pl"></a>[module faker.pl](#apidoc.module.faker.pl)
+
+#### <a name="apidoc.element.faker.pl.fake"></a>[function <span class="apidocSignatureSpan">faker.pl.</span>fake (str)](#apidoc.element.faker.pl.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.pt_BR"></a>[module faker.pt_BR](#apidoc.module.faker.pt_BR)
+
+#### <a name="apidoc.element.faker.pt_BR.fake"></a>[function <span class="apidocSignatureSpan">faker.pt_BR.</span>fake (str)](#apidoc.element.faker.pt_BR.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
 ```
 
 
@@ -3335,6 +6954,324 @@ words = function () { [native code] }
 
 
 
+# <a name="apidoc.module.faker.ru"></a>[module faker.ru](#apidoc.module.faker.ru)
+
+#### <a name="apidoc.element.faker.ru.fake"></a>[function <span class="apidocSignatureSpan">faker.ru.</span>fake (str)](#apidoc.element.faker.ru.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.sk"></a>[module faker.sk](#apidoc.module.faker.sk)
+
+#### <a name="apidoc.element.faker.sk.fake"></a>[function <span class="apidocSignatureSpan">faker.sk.</span>fake (str)](#apidoc.element.faker.sk.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.sv"></a>[module faker.sv](#apidoc.module.faker.sv)
+
+#### <a name="apidoc.element.faker.sv.fake"></a>[function <span class="apidocSignatureSpan">faker.sv.</span>fake (str)](#apidoc.element.faker.sv.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
 # <a name="apidoc.module.faker.system"></a>[module faker.system](#apidoc.module.faker.system)
 
 #### <a name="apidoc.element.faker.system.commonFileExt"></a>[function <span class="apidocSignatureSpan">faker.system.</span>commonFileExt ()](#apidoc.element.faker.system.commonFileExt)
@@ -3467,6 +7404,536 @@ semver = function () { [native code] }
 - example usage
 ```shell
 n/a
+```
+
+
+
+# <a name="apidoc.module.faker.tr"></a>[module faker.tr](#apidoc.module.faker.tr)
+
+#### <a name="apidoc.element.faker.tr.fake"></a>[function <span class="apidocSignatureSpan">faker.tr.</span>fake (str)](#apidoc.element.faker.tr.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.uk"></a>[module faker.uk](#apidoc.module.faker.uk)
+
+#### <a name="apidoc.element.faker.uk.fake"></a>[function <span class="apidocSignatureSpan">faker.uk.</span>fake (str)](#apidoc.element.faker.uk.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.vi"></a>[module faker.vi](#apidoc.module.faker.vi)
+
+#### <a name="apidoc.element.faker.vi.fake"></a>[function <span class="apidocSignatureSpan">faker.vi.</span>fake (str)](#apidoc.element.faker.vi.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.zh_CN"></a>[module faker.zh_CN](#apidoc.module.faker.zh_CN)
+
+#### <a name="apidoc.element.faker.zh_CN.fake"></a>[function <span class="apidocSignatureSpan">faker.zh_CN.</span>fake (str)](#apidoc.element.faker.zh_CN.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
+```
+
+
+
+# <a name="apidoc.module.faker.zh_TW"></a>[module faker.zh_TW](#apidoc.module.faker.zh_TW)
+
+#### <a name="apidoc.element.faker.zh_TW.fake"></a>[function <span class="apidocSignatureSpan">faker.zh_TW.</span>fake (str)](#apidoc.element.faker.zh_TW.fake)
+- description and source-code
+```javascript
+function fake(str) {
+  // setup default response as empty string
+  var res = '';
+
+  // if incoming str parameter is not provided, return error message
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
+    return res;
+  }
+
+  // find first matching {{ and }}
+  var start = str.search('{{');
+  var end = str.search('}}');
+
+  // if no {{ and }} is found, we are done
+  if (start === -1 && end === -1) {
+    return str;
+  }
+
+  // console.log('attempting to parse', str);
+
+  // extract method name from between the {{ }} that we found
+  // for example: {{name.firstName}}
+  var token = str.substr(start + 2,  end - start - 2);
+  var method = token.replace('}}', '').replace('{{', '');
+
+  // console.log('method', method)
+
+  // extract method parameters
+  var regExp = /\(([^)]+)\)/;
+  var matches = regExp.exec(method);
+  var parameters = '';
+  if (matches) {
+    method = method.replace(regExp, '');
+    parameters = matches[1];
+  }
+
+  // split the method into module and function
+  var parts = method.split('.');
+
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
+  }
+
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
+  }
+
+  // assign the function from the module.function namespace
+  var fn = faker[parts[0]][parts[1]];
+
+  // If parameters are populated here, they are always going to be of string type
+  // since we might actually be dealing with an object or array,
+  // we always attempt to the parse the incoming parameters into JSON
+  var params;
+  // Note: we experience a small performance hit here due to JSON.parse try / catch
+  // If anyone actually needs to optimize this specific code path, please open a support issue on github
+  try {
+    params = JSON.parse(parameters)
+  } catch (err) {
+    // since JSON.parse threw an error, assume parameters was actually a string
+    params = parameters;
+  }
+
+  var result;
+  if (typeof params === "string" && params.length === 0) {
+    result = fn.call(this);
+  } else {
+    result = fn.call(this, params);
+  }
+
+  // replace the found tag with the returned fake value
+  res = str.replace('{{' + token + '}}', result);
+
+  // return the response recursively until we are done finding all tags
+  return fake(res);
+}
+```
+- example usage
+```shell
+...
+    var randomName = faker.name.findName(); // Rowan Nikolaus
+    var randomEmail = faker.internet.email(); // Kassandra.Haley@erich.biz
+    var randomCard = faker.helpers.createCard(); // random contact card containing many properties
+
+## API
+
+
+### Faker.fake()
+
+faker.js contains a super useful generator method 'Faker.fake' for combining faker API methods using a mustache string format.
+
+**Example:**
+
+''' js
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+...
 ```
 
 
