@@ -1,4 +1,4 @@
-<div class="apidocDiv">
+<html><head></head><body><div class="apidocDiv">
 <style>
 /*csslint
 */
@@ -47,17 +47,10 @@
 }
 </style>
 <h1>api documentation for
-    <a
-
-        href="https://github.com/Marak/Faker.js#readme"
-
-    >faker (v4.1.0)</a>
+    <a href="https://github.com/Marak/Faker.js#readme">faker (v4.1.0)</a>
 </h1>
 <h4>Generate massive amounts of fake contextual data</h4>
-<div class="apidocSectionDiv"><a
-    href="#apidoc.tableOfContents"
-    id="apidoc.tableOfContents"
-><h1>table of contents</h1></a><ol>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.faker">module faker</a><ol>
 
@@ -1566,50 +1559,50 @@
     <ul>
     <li>description and source-code<pre class="apidocCodePre">function fake(str) {
   // setup default response as empty string
-  var res = &#x27;&#x27;;
+  var res = '';
 
   // if incoming str parameter is not provided, return error message
-  if (typeof str !== &#x27;string&#x27; || str.length === 0) {
-    res = &#x27;string parameter is required!&#x27;;
+  if (typeof str !== 'string' || str.length === 0) {
+    res = 'string parameter is required!';
     return res;
   }
 
   // find first matching {{ and }}
-  var start = str.search(&#x27;{{&#x27;);
-  var end = str.search(&#x27;}}&#x27;);
+  var start = str.search('{{');
+  var end = str.search('}}');
 
   // if no {{ and }} is found, we are done
-  if (start === -1 &#x26;&#x26; end === -1) {
+  if (start === -1 &amp;&amp; end === -1) {
     return str;
   }
 
-  // console.log(&#x27;attempting to parse&#x27;, str);
+  // console.log('attempting to parse', str);
 
   // extract method name from between the {{ }} that we found
   // for example: {{name.firstName}}
   var token = str.substr(start + 2,  end - start - 2);
-  var method = token.replace(&#x27;}}&#x27;, &#x27;&#x27;).replace(&#x27;{{&#x27;, &#x27;&#x27;);
+  var method = token.replace('}}', '').replace('{{', '');
 
-  // console.log(&#x27;method&#x27;, method)
+  // console.log('method', method)
 
   // extract method parameters
   var regExp = /\(([^)]+)\)/;
   var matches = regExp.exec(method);
-  var parameters = &#x27;&#x27;;
+  var parameters = '';
   if (matches) {
-    method = method.replace(regExp, &#x27;&#x27;);
+    method = method.replace(regExp, '');
     parameters = matches[1];
   }
 
   // split the method into module and function
-  var parts = method.split(&#x27;.&#x27;);
+  var parts = method.split('.');
 
-  if (typeof faker[parts[0]] === &#x22;undefined&#x22;) {
-    throw new Error(&#x27;Invalid module: &#x27; + parts[0]);
+  if (typeof faker[parts[0]] === "undefined") {
+    throw new Error('Invalid module: ' + parts[0]);
   }
 
-  if (typeof faker[parts[0]][parts[1]] === &#x22;undefined&#x22;) {
-    throw new Error(&#x27;Invalid method: &#x27; + parts[0] + &#x22;.&#x22; + parts[1]);
+  if (typeof faker[parts[0]][parts[1]] === "undefined") {
+    throw new Error('Invalid method: ' + parts[0] + "." + parts[1]);
   }
 
   // assign the function from the module.function namespace
@@ -1629,14 +1622,14 @@
   }
 
   var result;
-  if (typeof params === &#x22;string&#x22; &#x26;&#x26; params.length === 0) {
+  if (typeof params === "string" &amp;&amp; params.length === 0) {
     result = fn.call(this);
   } else {
     result = fn.call(this, params);
   }
 
   // replace the found tag with the returned fake value
-  res = str.replace(&#x27;{{&#x27; + token + &#x27;}}&#x27;, result);
+  res = str.replace('{{' + token + '}}', result);
 
   // return the response recursively until we are done finding all tags
   return fake(res);
@@ -1656,7 +1649,7 @@ faker.js contains a super useful generator method `Faker.fake` for combining fak
 **Example:**
 
 ``` js
-console.log(faker.fake(&#x22;{{name.lastName}}, {{name.firstName}} {{name.suffix}}&#x22;));
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
 ...</pre></li>
     </ul>
 
@@ -2544,27 +2537,27 @@ console.log(faker.fake(&#x22;{{name.lastName}}, {{name.firstName}} {{name.suffix
   var name = faker.name.firstName(),
       userName = faker.internet.userName(name);
   return {
-      &#x22;name&#x22;: name,
-      &#x22;username&#x22;: userName,
-      &#x22;avatar&#x22;: faker.internet.avatar(),
-      &#x22;email&#x22;: faker.internet.email(userName),
-      &#x22;dob&#x22;: faker.date.past(50, new Date(&#x22;Sat Sep 20 1992 21:35:02 GMT+0200 (CEST)&#x22;)),
-      &#x22;phone&#x22;: faker.phone.phoneNumber(),
-      &#x22;address&#x22;: {
-          &#x22;street&#x22;: faker.address.streetName(true),
-          &#x22;suite&#x22;: faker.address.secondaryAddress(),
-          &#x22;city&#x22;: faker.address.city(),
-          &#x22;zipcode&#x22;: faker.address.zipCode(),
-          &#x22;geo&#x22;: {
-              &#x22;lat&#x22;: faker.address.latitude(),
-              &#x22;lng&#x22;: faker.address.longitude()
+      "name": name,
+      "username": userName,
+      "avatar": faker.internet.avatar(),
+      "email": faker.internet.email(userName),
+      "dob": faker.date.past(50, new Date("Sat Sep 20 1992 21:35:02 GMT+0200 (CEST)")),
+      "phone": faker.phone.phoneNumber(),
+      "address": {
+          "street": faker.address.streetName(true),
+          "suite": faker.address.secondaryAddress(),
+          "city": faker.address.city(),
+          "zipcode": faker.address.zipCode(),
+          "geo": {
+              "lat": faker.address.latitude(),
+              "lng": faker.address.longitude()
           }
       },
-      &#x22;website&#x22;: faker.internet.domainName(),
-      &#x22;company&#x22;: {
-          &#x22;name&#x22;: faker.company.companyName(),
-          &#x22;catchPhrase&#x22;: faker.company.catchPhrase(),
-          &#x22;bs&#x22;: faker.company.bs()
+      "website": faker.internet.domainName(),
+      "company": {
+          "name": faker.company.companyName(),
+          "catchPhrase": faker.company.catchPhrase(),
+          "bs": faker.company.bs()
       }
   };
 }</pre></li>
@@ -2582,51 +2575,51 @@ console.log(faker.fake(&#x22;{{name.lastName}}, {{name.firstName}} {{name.suffix
     <ul>
     <li>description and source-code<pre class="apidocCodePre">createCard = function () {
     return {
-        &#x22;name&#x22;: faker.name.findName(),
-        &#x22;username&#x22;: faker.internet.userName(),
-        &#x22;email&#x22;: faker.internet.email(),
-        &#x22;address&#x22;: {
-            &#x22;streetA&#x22;: faker.address.streetName(),
-            &#x22;streetB&#x22;: faker.address.streetAddress(),
-            &#x22;streetC&#x22;: faker.address.streetAddress(true),
-            &#x22;streetD&#x22;: faker.address.secondaryAddress(),
-            &#x22;city&#x22;: faker.address.city(),
-            &#x22;state&#x22;: faker.address.state(),
-            &#x22;country&#x22;: faker.address.country(),
-            &#x22;zipcode&#x22;: faker.address.zipCode(),
-            &#x22;geo&#x22;: {
-                &#x22;lat&#x22;: faker.address.latitude(),
-                &#x22;lng&#x22;: faker.address.longitude()
+        "name": faker.name.findName(),
+        "username": faker.internet.userName(),
+        "email": faker.internet.email(),
+        "address": {
+            "streetA": faker.address.streetName(),
+            "streetB": faker.address.streetAddress(),
+            "streetC": faker.address.streetAddress(true),
+            "streetD": faker.address.secondaryAddress(),
+            "city": faker.address.city(),
+            "state": faker.address.state(),
+            "country": faker.address.country(),
+            "zipcode": faker.address.zipCode(),
+            "geo": {
+                "lat": faker.address.latitude(),
+                "lng": faker.address.longitude()
             }
         },
-        &#x22;phone&#x22;: faker.phone.phoneNumber(),
-        &#x22;website&#x22;: faker.internet.domainName(),
-        &#x22;company&#x22;: {
-            &#x22;name&#x22;: faker.company.companyName(),
-            &#x22;catchPhrase&#x22;: faker.company.catchPhrase(),
-            &#x22;bs&#x22;: faker.company.bs()
+        "phone": faker.phone.phoneNumber(),
+        "website": faker.internet.domainName(),
+        "company": {
+            "name": faker.company.companyName(),
+            "catchPhrase": faker.company.catchPhrase(),
+            "bs": faker.company.bs()
         },
-        &#x22;posts&#x22;: [
+        "posts": [
             {
-                &#x22;words&#x22;: faker.lorem.words(),
-                &#x22;sentence&#x22;: faker.lorem.sentence(),
-                &#x22;sentences&#x22;: faker.lorem.sentences(),
-                &#x22;paragraph&#x22;: faker.lorem.paragraph()
+                "words": faker.lorem.words(),
+                "sentence": faker.lorem.sentence(),
+                "sentences": faker.lorem.sentences(),
+                "paragraph": faker.lorem.paragraph()
             },
             {
-                &#x22;words&#x22;: faker.lorem.words(),
-                &#x22;sentence&#x22;: faker.lorem.sentence(),
-                &#x22;sentences&#x22;: faker.lorem.sentences(),
-                &#x22;paragraph&#x22;: faker.lorem.paragraph()
+                "words": faker.lorem.words(),
+                "sentence": faker.lorem.sentence(),
+                "sentences": faker.lorem.sentences(),
+                "paragraph": faker.lorem.paragraph()
             },
             {
-                &#x22;words&#x22;: faker.lorem.words(),
-                &#x22;sentence&#x22;: faker.lorem.sentence(),
-                &#x22;sentences&#x22;: faker.lorem.sentences(),
-                &#x22;paragraph&#x22;: faker.lorem.paragraph()
+                "words": faker.lorem.words(),
+                "sentence": faker.lorem.sentence(),
+                "sentences": faker.lorem.sentences(),
+                "paragraph": faker.lorem.paragraph()
             }
         ],
-        &#x22;accountHistory&#x22;: [faker.helpers.createTransaction(), faker.helpers.createTransaction(), faker.helpers.createTransaction
+        "accountHistory": [faker.helpers.createTransaction(), faker.helpers.createTransaction(), faker.helpers.createTransaction
 ()]
     };
 }</pre></li>
@@ -2634,17 +2627,17 @@ console.log(faker.fake(&#x22;{{name.lastName}}, {{name.firstName}} {{name.suffix
 
 ### Browser
 
-&#x3c;script src = &#x22;faker.js&#x22; type = &#x22;text/javascript&#x22;&#x3e;&#x3c;/script&#x3e;
-&#x3c;script&#x3e;
+&lt;script src = "faker.js" type = "text/javascript"&gt;&lt;/script&gt;
+&lt;script&gt;
   var randomName = faker.name.findName(); // Caitlyn Kerluke
   var randomEmail = faker.internet.email(); // Rusty@arne.info
   var randomCard = faker.helpers.<span class="apidocCodeKeywordSpan">createCard</span>(); // random contact card containing many
  properties
-&#x3c;/script&#x3e;
+&lt;/script&gt;
 
 ### Node.js
 
-var faker = require(&#x27;faker&#x27;);
+var faker = require('faker');
 
 var randomName = faker.name.findName(); // Rowan Nikolaus
 ...</pre></li>
@@ -2661,12 +2654,12 @@ var randomName = faker.name.findName(); // Rowan Nikolaus
     <ul>
     <li>description and source-code<pre class="apidocCodePre">createTransaction = function (){
   return {
-    &#x22;amount&#x22; : faker.finance.amount(),
-    &#x22;date&#x22; : new Date(2012, 1, 2),  //TODO: add a ranged date method
-    &#x22;business&#x22;: faker.company.companyName(),
-    &#x22;name&#x22;: [faker.finance.accountName(), faker.finance.mask()].join(&#x27; &#x27;),
-    &#x22;type&#x22; : self.randomize(faker.definitions.finance.transaction_type),
-    &#x22;account&#x22; : faker.finance.account()
+    "amount" : faker.finance.amount(),
+    "date" : new Date(2012, 1, 2),  //TODO: add a ranged date method
+    "business": faker.company.companyName(),
+    "name": [faker.finance.accountName(), faker.finance.mask()].join(' '),
+    "type" : self.randomize(faker.definitions.finance.transaction_type),
+    "account" : faker.finance.account()
   };
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -2682,11 +2675,11 @@ var randomName = faker.name.findName(); // Rowan Nikolaus
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">mustache = function (str, data) {
-  if (typeof str === &#x27;undefined&#x27;) {
-    return &#x27;&#x27;;
+  if (typeof str === 'undefined') {
+    return '';
   }
   for(var p in data) {
-    var re = new RegExp(&#x27;{{&#x27; + p + &#x27;}}&#x27;, &#x27;g&#x27;)
+    var re = new RegExp('{{' + p + '}}', 'g')
     str = str.replace(re, data[p]);
   }
   return str;
@@ -2704,7 +2697,7 @@ var randomName = faker.name.findName(); // Rowan Nikolaus
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">randomize = function (array) {
-    array = array || [&#x22;a&#x22;, &#x22;b&#x22;, &#x22;c&#x22;];
+    array = array || ["a", "b", "c"];
     return faker.random.arrayElement(array);
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
@@ -2720,14 +2713,14 @@ var randomName = faker.name.findName(); // Rowan Nikolaus
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">replaceSymbolWithNumber = function (string, symbol) {
-    string = string || &#x22;&#x22;;
-    // default symbol is &#x27;#&#x27;
+    string = string || "";
+    // default symbol is '#'
     if (symbol === undefined) {
-        symbol = &#x27;#&#x27;;
+        symbol = '#';
     }
 
-    var str = &#x27;&#x27;;
-    for (var i = 0; i &#x3c; string.length; i++) {
+    var str = '';
+    for (var i = 0; i &lt; string.length; i++) {
         if (string.charAt(i) == symbol) {
             str += faker.random.number(9);
         } else {
@@ -2749,14 +2742,14 @@ var randomName = faker.name.findName(); // Rowan Nikolaus
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">replaceSymbols = function (string) {
-    string = string || &#x22;&#x22;;
-    var alpha = [&#x27;A&#x27;,&#x27;B&#x27;,&#x27;C&#x27;,&#x27;D&#x27;,&#x27;E&#x27;,&#x27;F&#x27;,&#x27;G&#x27;,&#x27;H&#x27;,&#x27;I&#x27;,&#x27;J&#x27;,&#x27;K&#x27;,&#x27;L&#x27;,&#x27;M&#x27;,&#x27;N&#x27;,&#x27;O&#x27;,&#x27;P&#x27;,&#x27;Q&#x27;,&#x27;R&#x27;,&#x27;S&#x27;,&#x27;T&#x27;,&#x27;U&#x27;,&#x27;V&#x27;,&#x27;W&#x27;,&#x27;X&#x27;,&#x27;Y&#x27;,&#x27;Z&#x27;]
-    var str = &#x27;&#x27;;
+    string = string || "";
+    var alpha = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+    var str = '';
 
-    for (var i = 0; i &#x3c; string.length; i++) {
-        if (string.charAt(i) == &#x22;#&#x22;) {
+    for (var i = 0; i &lt; string.length; i++) {
+        if (string.charAt(i) == "#") {
             str += faker.random.number(9);
-        } else if (string.charAt(i) == &#x22;?&#x22;) {
+        } else if (string.charAt(i) == "?") {
             str += faker.random.arrayElement(alpha);
         } else {
             str += string.charAt(i);
@@ -2777,10 +2770,10 @@ var randomName = faker.name.findName(); // Rowan Nikolaus
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">shuffle = function (o) {
-    if (typeof o === &#x27;undefined&#x27; || o.length === 0) {
+    if (typeof o === 'undefined' || o.length === 0) {
       return [];
     }
-    o = o || [&#x22;a&#x22;, &#x22;b&#x22;, &#x22;c&#x22;];
+    o = o || ["a", "b", "c"];
     for (var j, x, i = o.length-1; i; j = faker.random.number(i), x = o[--i], o[i] = o[j], o[j] = x);
     return o;
 }</pre></li>
@@ -2797,8 +2790,8 @@ var randomName = faker.name.findName(); // Rowan Nikolaus
     </h2>
     <ul>
     <li>description and source-code<pre class="apidocCodePre">slugify = function (string) {
-    string = string || &#x22;&#x22;;
-    return string.replace(/ /g, &#x27;-&#x27;).replace(/[^\w\.\-]+/g, &#x27;&#x27;);
+    string = string || "";
+    return string.replace(/ /g, '-').replace(/[^\w\.\-]+/g, '');
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
     </ul>
@@ -2814,25 +2807,25 @@ var randomName = faker.name.findName(); // Rowan Nikolaus
     <ul>
     <li>description and source-code<pre class="apidocCodePre">userCard = function () {
     return {
-        &#x22;name&#x22;: faker.name.findName(),
-        &#x22;username&#x22;: faker.internet.userName(),
-        &#x22;email&#x22;: faker.internet.email(),
-        &#x22;address&#x22;: {
-            &#x22;street&#x22;: faker.address.streetName(true),
-            &#x22;suite&#x22;: faker.address.secondaryAddress(),
-            &#x22;city&#x22;: faker.address.city(),
-            &#x22;zipcode&#x22;: faker.address.zipCode(),
-            &#x22;geo&#x22;: {
-                &#x22;lat&#x22;: faker.address.latitude(),
-                &#x22;lng&#x22;: faker.address.longitude()
+        "name": faker.name.findName(),
+        "username": faker.internet.userName(),
+        "email": faker.internet.email(),
+        "address": {
+            "street": faker.address.streetName(true),
+            "suite": faker.address.secondaryAddress(),
+            "city": faker.address.city(),
+            "zipcode": faker.address.zipCode(),
+            "geo": {
+                "lat": faker.address.latitude(),
+                "lng": faker.address.longitude()
             }
         },
-        &#x22;phone&#x22;: faker.phone.phoneNumber(),
-        &#x22;website&#x22;: faker.internet.domainName(),
-        &#x22;company&#x22;: {
-            &#x22;name&#x22;: faker.company.companyName(),
-            &#x22;catchPhrase&#x22;: faker.company.catchPhrase(),
-            &#x22;bs&#x22;: faker.company.bs()
+        "phone": faker.phone.phoneNumber(),
+        "website": faker.internet.domainName(),
+        "company": {
+            "name": faker.company.companyName(),
+            "catchPhrase": faker.company.catchPhrase(),
+            "bs": faker.company.bs()
         }
     };
 }</pre></li>
@@ -3150,16 +3143,16 @@ var randomName = faker.name.findName(); // Rowan Nikolaus
 
 ### Browser
 
-&#x3c;script src = &#x22;faker.js&#x22; type = &#x22;text/javascript&#x22;&#x3e;&#x3c;/script&#x3e;
-&#x3c;script&#x3e;
+&lt;script src = "faker.js" type = "text/javascript"&gt;&lt;/script&gt;
+&lt;script&gt;
   var randomName = faker.name.findName(); // Caitlyn Kerluke
   var randomEmail = faker.internet.<span class="apidocCodeKeywordSpan">email</span>(); // Rusty@arne.info
   var randomCard = faker.helpers.createCard(); // random contact card containing many properties
-&#x3c;/script&#x3e;
+&lt;/script&gt;
 
 ### Node.js
 
-var faker = require(&#x27;faker&#x27;);
+var faker = require('faker');
 ...</pre></li>
     </ul>
 
@@ -3423,16 +3416,16 @@ var faker = require(&#x27;faker&#x27;);
 
 ### Browser
 
-&#x3c;script src = &#x22;faker.js&#x22; type = &#x22;text/javascript&#x22;&#x3e;&#x3c;/script&#x3e;
-&#x3c;script&#x3e;
+&lt;script src = "faker.js" type = "text/javascript"&gt;&lt;/script&gt;
+&lt;script&gt;
   var randomName = faker.name.<span class="apidocCodeKeywordSpan">findName</span>(); // Caitlyn Kerluke
   var randomEmail = faker.internet.email(); // Rusty@arne.info
   var randomCard = faker.helpers.createCard(); // random contact card containing many properties
-&#x3c;/script&#x3e;
+&lt;/script&gt;
 
 ### Node.js
 
-var faker = require(&#x27;faker&#x27;);
+var faker = require('faker');
 ...</pre></li>
     </ul>
 
@@ -3450,8 +3443,8 @@ var faker = require(&#x27;faker&#x27;);
 **Example:**
 
 ``` js
-console.log(faker.fake(&#x22;{{name.lastName}}, {{name.firstName}} {{name.suffix}}&#x22;));
-// outputs: &#x22;Marks, Dean Sr.&#x22;
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+// outputs: "Marks, Dean Sr."
 ```
 
 This will interpolate the format string with the value of methods `name.lastName()`, `name.<span class="apidocCodeKeywordSpan">firstName
@@ -3531,8 +3524,8 @@ This will interpolate the format string with the value of methods `name.lastName
 **Example:**
 
 ``` js
-console.log(faker.fake(&#x22;{{name.lastName}}, {{name.firstName}} {{name.suffix}}&#x22;));
-// outputs: &#x22;Marks, Dean Sr.&#x22;
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+// outputs: "Marks, Dean Sr."
 ```
 
 This will interpolate the format string with the value of methods `name.<span class="apidocCodeKeywordSpan">lastName</span>()`, `
@@ -3573,8 +3566,8 @@ name.firstName()`, and `name.suffix()`
 **Example:**
 
 ``` js
-console.log(faker.fake(&#x22;{{name.lastName}}, {{name.firstName}} {{name.suffix}}&#x22;));
-// outputs: &#x22;Marks, Dean Sr.&#x22;
+console.log(faker.fake("{{name.lastName}}, {{name.firstName}} {{name.suffix}}"));
+// outputs: "Marks, Dean Sr."
 ```
 
 This will interpolate the format string with the value of methods `name.lastName()`, `name.firstName()`, and `name.<span class="
@@ -3940,3 +3933,4 @@ console.log(firstRandom === secondRandom);
     ]
 </div>
 </div>
+</body></html>
