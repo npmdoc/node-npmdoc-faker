@@ -1,6 +1,6 @@
 # npmdoc-faker
 
-#### api documentation for  [faker (v4.1.0)](https://github.com/Marak/Faker.js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-faker.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-faker) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-faker.svg)](https://travis-ci.org/npmdoc/node-npmdoc-faker)
+#### basic api documentation for  [faker (v4.1.0)](https://github.com/Marak/Faker.js#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-faker.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-faker) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-faker.svg)](https://travis-ci.org/npmdoc/node-npmdoc-faker)
 
 #### Generate massive amounts of fake contextual data
 
@@ -76,7 +76,8 @@
         "lint": "jshint ./lib --config ./.jshintrc",
         "test": "mocha test/*.*.js"
     },
-    "version": "4.1.0"
+    "version": "4.1.0",
+    "bin": {}
 }
 ```
 
